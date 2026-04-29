@@ -406,6 +406,29 @@
         "503A bulk drug substances list",
         "regulations.gov peptide comment"
       ]
+    },
+    {
+      "slug": "state-of-peptides-glp1-regulation-report",
+      "title": "State of Peptides 2026: What the GLP-1 Pipeline and FDA Policy Signals Mean Now",
+      "subtitle": "A new industry report pulls together RFK-era HHS priorities, FDA compounding rules, and the next wave of obesity drugs. Here\u2019s what to watch\u2014and what not to assume.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-04-29",
+      "image": "/static/images/blog-state-of-peptides-glp1-regulation-report.png",
+      "category": "Regulation",
+      "tags": [
+        "FDA",
+        "compounding",
+        "GLP-1",
+        "obesity drugs",
+        "RFK",
+        "503A",
+        "clinical trials"
+      ],
+      "readTime": "10 min read",
+      "excerpt": "FormBlends\u2019 2026 State of Peptides report highlights how FDA compounding policy and the GLP-1 pipeline could reshape peptide access, pricing, and safety in 2026.",
+      "metaDescription": "FormBlends\u2019 2026 State of Peptides report spotlights FDA compounding policy and the GLP-1 pipeline\u2014what it means for peptide access, pricing, and safety.",
+      "keywords": "state of peptides report, GLP-1 pipeline 2026, FDA 503A peptides, peptide compounding policy, RFK HHS peptides, obesity drug trials, ClinicalTrials.gov NCT, GLP-1 agonist pipeline"
     }
   ]
 }
