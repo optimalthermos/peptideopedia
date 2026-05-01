@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "glp-1-type-1-diabetes-cardiorenal-evidence-2026",
+      "title": "GLP-1 Receptor Agonists in Type 1 Diabetes: What the New Cardiorenal Evidence Means",
+      "subtitle": "A Hopkins target trial emulation in 174,678 T1D patients found 15% lower MACE and 19% lower ESKD risk with GLP-1 RAs, no DKA signal. The 2026 ADA Standards added the first T1D-and-obesity recommendation. What changed and what is still observational.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-01",
+      "dateModified": "2026-05-01",
+      "image": "/static/images/blog-glp-1-type-1-diabetes-cardiorenal-evidence-2026.png",
+      "category": "cardiovascular",
+      "tags": [
+        "GLP-1",
+        "Type 1 Diabetes",
+        "semaglutide",
+        "tirzepatide",
+        "cardiovascular",
+        "kidney disease",
+        "ADA Standards",
+        "Nature Medicine"
+      ],
+      "readTime": "11 min read",
+      "excerpt": "A 174,678-patient Hopkins target trial emulation found 15% lower MACE and 19% lower ESKD risk with GLP-1 RAs in T1D, no DKA signal. What it means clinically.",
+      "metaDescription": "Hopkins Nature Medicine paper, Cleveland Clinic analysis, and 2026 ADA Standards converge on a new evidence base for GLP-1 RAs in type 1 diabetes. Full breakdown.",
+      "keywords": "GLP-1 type 1 diabetes, semaglutide T1D, tirzepatide T1D, GLP-1 cardiorenal, ADA 2026 Standards, Hopkins Nature Medicine GLP-1, T1D cardiovascular, GLP-1 kidney disease, DKA risk GLP-1, target trial emulation"
+    },
+    {
       "slug": "pop-peptides-evidence-bpc-157-ghk-cu-debate-2026",
       "title": "Pop Peptides and the Evidence Gap: What Knoepfler's STAT Essay Gets Right About BPC-157 and GHK-Cu",
       "subtitle": "A UC Davis scientist says Kennedy's reversal of FDA's 2023 peptide ban runs ahead of the trial data. The evidence on BPC-157 and GHK-Cu, and what PCAC will actually decide on July 23.",
