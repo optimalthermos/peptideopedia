@@ -1,6 +1,31 @@
 {
   "posts": [
     {
+      "slug": "fda-pcac-503a-peptide-meeting-july-2026",
+      "title": "FDA sets July 2026 PCAC review for key compounding peptides (BPC-157, MOTs-C, Semax)",
+      "subtitle": "What the 503A bulks list agenda means\u2014and what it doesn\u2019t\u2014for pharmacies, clinicians, and patients.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-02",
+      "dateModified": "2026-05-02",
+      "image": "/static/images/blog-fda-pcac-503a-peptide-meeting.png",
+  "bodyFile": "blog-fda-pcac-503a-peptide-meeting-body.html",
+      "category": "FDA & Policy",
+      "tags": [
+        "FDA",
+        "PCAC",
+        "503A",
+        "compounding",
+        "bulk drug substances",
+        "BPC-157",
+        "MOTs-C",
+        "Semax"
+      ],
+      "readTime": "9 min read",
+      "excerpt": "FDA\u2019s July 23\u201324, 2026 PCAC agenda puts seven peptides (BPC-157, KPV, TB-500, MOTs-C, DSIP, Semax, Epithalon) into formal 503A bulks-list review.",
+      "metaDescription": "FDA\u2019s July 2026 PCAC agenda will review seven peptides for the 503A bulks list. Here\u2019s what it means for compounding of BPC-157, MOTs-C, Semax, and more.",
+      "keywords": "FDA PCAC,503A bulks list,peptide compounding,BPC-157,KPV,TB-500,MOTs-C,Semax,DSIP,Epithalon,bulk drug substances,compounding pharmacy,FDA docket"
+    },
+    {
       "slug": "glp-1-type-1-diabetes-cardiorenal-evidence-2026",
       "title": "GLP-1 Receptor Agonists in Type 1 Diabetes: What the New Cardiorenal Evidence Means",
       "subtitle": "A Hopkins target trial emulation in 174,678 T1D patients found 15% lower MACE and 19% lower ESKD risk with GLP-1 RAs, no DKA signal. The 2026 ADA Standards added the first T1D-and-obesity recommendation. What changed and what is still observational.",
