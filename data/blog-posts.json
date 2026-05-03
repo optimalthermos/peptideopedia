@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "fda-503b-glp1-compounding-proposal",
+      "title": "FDA proposes excluding semaglutide, tirzepatide, and liraglutide from the 503B bulks list",
+      "subtitle": "A \u201cno clinical need\u201d finding could narrow large-scale compounding of GLP-1 peptide drugs unless shortages return.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-03",
+      "dateModified": "2026-05-03",
+      "image": "/static/images/blog-fda-503b-glp1-compounding-proposal.png",
+      "category": "Regulation",
+      "tags": [
+        "FDA",
+        "503B",
+        "compounding",
+        "GLP-1",
+        "semaglutide",
+        "tirzepatide",
+        "liraglutide",
+        "drug shortages"
+      ],
+      "readTime": "10 min read",
+      "excerpt": "FDA is proposing to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list\u2014tightening rules for large-scale compounding of GLP\u20111s.",
+      "metaDescription": "FDA proposes excluding semaglutide, tirzepatide, and liraglutide from the 503B bulks list, potentially restricting large-scale compounding of GLP\u20111s.",
+      "keywords": "FDA 503B, 503B bulks list, compounded semaglutide, compounded tirzepatide, compounded liraglutide, GLP-1 compounding, outsourcing facility, clinical need, drug shortage list, peptide drugs, compounding regulation"
+    },
+    {
       "slug": "fda-pcac-503a-peptide-meeting-july-2026",
       "title": "FDA sets July 2026 PCAC review for key compounding peptides (BPC-157, MOTs-C, Semax)",
       "subtitle": "What the 503A bulks list agenda means\u2014and what it doesn\u2019t\u2014for pharmacies, clinicians, and patients.",
@@ -8,7 +32,7 @@
       "datePublished": "2026-05-02",
       "dateModified": "2026-05-02",
       "image": "/static/images/blog-fda-pcac-503a-peptide-meeting.png",
-  "bodyFile": "blog-fda-pcac-503a-peptide-meeting-body.html",
+      "bodyFile": "blog-fda-pcac-503a-peptide-meeting-body.html",
       "category": "FDA & Policy",
       "tags": [
         "FDA",
