@@ -1,6 +1,31 @@
 {
   "posts": [
     {
+      "slug": "fda-warning-letters-research-peptide-sellers-glp1-april-2026",
+      "title": "FDA's April 7 Warning Letter Batch: How the Bacteriostatic-Water Trigger Is Closing the 'Research Peptides' Lane",
+      "subtitle": "Seven warning letters to GLP-1 'research peptide' sellers \u2014 Gram Peptides, Prime Sciences, Lovega, FormPour, and others \u2014 show FDA using intended-use doctrine and bacteriostatic-water pairing to dismantle the 'research use only' workaround.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-04",
+      "dateModified": "2026-05-04",
+      "image": "/static/images/blog-fda-warning-letters-research-peptide-sellers-glp1-april-2026.png",
+      "category": "regulation-policy",
+      "tags": [
+        "FDA enforcement",
+        "warning letters",
+        "GLP-1",
+        "research peptides",
+        "tirzepatide",
+        "retatrutide",
+        "semaglutide",
+        "bacteriostatic water",
+        "intended use doctrine"
+      ],
+      "readTime": "10 min read",
+      "excerpt": "FDA's April 7 batch of seven warning letters uses bacteriostatic-water pairing to overcome 'research use only' disclaimers on GLP-1 peptide sellers. What changed.",
+      "metaDescription": "FDA's April 7, 2026 warning letters to Gram Peptides, Prime Sciences, Lovega, and others narrow the 'research peptides' market via intended-use doctrine. Full breakdown.",
+      "keywords": "FDA warning letters peptides, Gram Peptides FDA, Prime Sciences warning letter, research peptides FDA, bacteriostatic water FDA, GLP-1 enforcement, intended use doctrine, tirzepatide research peptide, retatrutide unapproved, FDA peptide enforcement 2026"
+    },
+    {
       "slug": "fda-503b-glp1-compounding-proposal",
       "title": "FDA proposes excluding semaglutide, tirzepatide, and liraglutide from the 503B bulks list",
       "subtitle": "A \u201cno clinical need\u201d finding could narrow large-scale compounding of GLP-1 peptide drugs unless shortages return.",
