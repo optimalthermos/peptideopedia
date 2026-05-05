@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "fda-503b-semaglutide-tirzepatide-exclusion",
+      "title": "FDA proposes excluding semaglutide and tirzepatide from the 503B bulks list",
+      "subtitle": "What the June 29, 2026 docket means for compounding, \u201cresearch use only\u201d marketing, and the next phase of GLP-1 enforcement.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-05",
+      "dateModified": "2026-05-05",
+      "image": "/static/images/blog-fda-503b-semaglutide-tirzepatide-exclusion.png",
+      "category": "FDA regulation",
+      "tags": [
+        "semaglutide",
+        "tirzepatide",
+        "GLP-1",
+        "compounding",
+        "503B",
+        "outsourcing facilities",
+        "FDA docket"
+      ],
+      "readTime": "10 min read",
+      "excerpt": "FDA proposed excluding semaglutide, tirzepatide, and liraglutide from the 503B bulks list, setting a June 29, 2026 comment deadline with major impacts.",
+      "metaDescription": "FDA proposed excluding semaglutide and tirzepatide from the 503B bulks list. Here\u2019s what the June 29, 2026 docket means for compounding and enforcement.",
+      "keywords": "FDA 503B bulks list, semaglutide compounding, tirzepatide compounding, liraglutide 503B, outsourcing facilities, GLP-1 compounding, FDA public comment docket, peptide regulation, clinical need standard, research use only peptides"
+    },
+    {
       "slug": "fda-warning-letters-research-peptide-sellers-glp1-april-2026",
       "title": "FDA's April 7 Warning Letter Batch: How the Bacteriostatic-Water Trigger Is Closing the 'Research Peptides' Lane",
       "subtitle": "Seven warning letters to GLP-1 'research peptide' sellers \u2014 Gram Peptides, Prime Sciences, Lovega, FormPour, and others \u2014 show FDA using intended-use doctrine and bacteriostatic-water pairing to dismantle the 'research use only' workaround.",
