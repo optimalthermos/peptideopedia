@@ -1,0 +1,97 @@
+<section id="summary">
+  <h2>What Happened</h2>
+  <p>A propensity-matched comparative-effectiveness study of <strong>75,243 Medicare beneficiaries</strong> with type 2 diabetes, published this week on PubMed and now circulating among cardiology and endocrinology desks, reports that once-weekly <a href="/peptides/semaglutide">semaglutide</a> was associated with a <strong>22% lower risk of three-point major adverse cardiovascular events</strong> compared with once-weekly <a href="/peptides/dulaglutide">dulaglutide</a> over three years of follow-up. The hazard ratio was 0.78 (95% CI 0.70&ndash;0.87, p&lt;0.001). MACE incidence was 25.7 per 1,000 person-years on semaglutide versus 33.0 on dulaglutide.</p>
+  <p>The cohort came from the Optum Clinformatics Data Mart linked to Medicare claims. Mean age was 68.2 years on semaglutide and 69.3 on dulaglutide. Both arms looked alike on cardiovascular risk factors after matching. Both drugs are approved GLP-1 receptor agonists in the same class. Both have positive cardiovascular outcomes trials behind them. The new analysis is the largest head-to-head observational comparison to date of how they actually perform against each other in a population that prescribers see every day.</p>
+</section>
+
+<section id="quick-takeaways">
+  <h2>The Numbers That Matter</h2>
+  <ul>
+    <li><strong>Cohort:</strong> 75,243 Medicare beneficiaries with type 2 diabetes &mdash; 42,007 on once-weekly semaglutide, 33,236 on once-weekly dulaglutide.</li>
+    <li><strong>Primary endpoint:</strong> three-point MACE (cardiovascular death, nonfatal myocardial infarction, nonfatal stroke).</li>
+    <li><strong>Incidence rates:</strong> 25.7 vs 33.0 events per 1,000 person-years.</li>
+    <li><strong>Hazard ratio:</strong> 0.78 (95% CI 0.70&ndash;0.87, p&lt;0.001) favoring semaglutide.</li>
+    <li><strong>Mean age:</strong> 68.2 (semaglutide) vs 69.3 (dulaglutide); both arms majority older adults at high baseline cardiovascular risk.</li>
+    <li><strong>Design:</strong> retrospective propensity-matched observational; not a randomized trial.</li>
+    <li><strong>Source data:</strong> Optum Clinformatics Data Mart linked to Medicare; PubMed ID <a href="https://pubmed.ncbi.nlm.nih.gov/41508706/" rel="noopener">41508706</a>.</li>
+  </ul>
+</section>
+
+<section id="what-was-actually-published">
+  <h2>What Was Actually Published</h2>
+  <p>The study set out to answer a narrow question that prescribers have been asking out loud for two years. Among GLP-1 receptor agonists with positive cardiovascular outcomes trials, does one beat another head-to-head in routine Medicare practice? Until this paper, the comparisons were indirect &mdash; SUSTAIN-6 against REWIND, network meta-analyses, expert opinion. The new analysis used Medicare's pool of older adults with type 2 diabetes, identified initiators of either once-weekly semaglutide or once-weekly dulaglutide, matched them on roughly forty baseline characteristics, and followed them for up to three years for hard cardiovascular events.</p>
+  <p>After matching, the cohorts looked nearly identical on age, sex, race, comorbidities, prior medications, baseline kidney function, and prior cardiovascular events. The semaglutide arm had 42,007 patients. The dulaglutide arm had 33,236. Three-point MACE accumulated faster in the dulaglutide group from the first year of follow-up and the gap widened over time. The 22% relative risk reduction held in the prespecified subgroups the authors examined, including those with established atherosclerotic cardiovascular disease at baseline and those without.</p>
+  <p>One number from the paper deserves a second look. The absolute risk difference was 7.3 events per 1,000 person-years. Over three years, that is roughly two prevented MACE events for every hundred patients treated. In a Medicare population with type 2 diabetes, where MACE rates run high and treatment costs run higher, that is a meaningful number. It is also a number with limits, which the authors flag in the discussion.</p>
+</section>
+
+<section id="why-it-matters">
+  <h2>Why It Matters For Prescribers</h2>
+  <p>Picture an endocrinologist's morning. The patient is 70, has had type 2 diabetes for fifteen years, takes metformin and a basal insulin, and had a non-ST-elevation MI last winter. The endocrinologist wants to add a GLP-1 agonist with cardiovascular benefit. Insurance covers both semaglutide and dulaglutide. Which to pick?</p>
+  <p>Until this week, the answer drew on indirect comparisons. SUSTAIN-6 showed a 26% relative risk reduction in MACE for semaglutide versus placebo. REWIND showed a 12% relative risk reduction for dulaglutide. The trials enrolled different populations &mdash; SUSTAIN-6 was higher-risk secondary prevention, REWIND was broader primary and secondary prevention &mdash; so the headline numbers were never directly comparable. Endocrinologists used network meta-analyses, formulary status, GI tolerability profiles, and patient preference to land on a drug.</p>
+  <p>The new Medicare analysis says that, in the population it studied, the indirect comparison appears to hold. Semaglutide pulls ahead on hard endpoints, and the gap is larger than what either drug's outcomes trial suggested when read against placebo. The clinical decision for a patient like the one above is now anchored by a same-population, same-method, head-to-head observational comparison. That is closer evidence than the field had a week ago.</p>
+  <p>Payers will read this paper too. CMS spent a reported $14 billion on GLP-1 agonists for diabetes in 2024. Two prevented MACE events per hundred patients over three years is the kind of effect size that drives stepped-therapy debates and prior-authorization rewrites. Watch the formulary committees.</p>
+</section>
+
+<section id="how-the-data-were-built">
+  <h2>How The Data Were Built (And What That Means)</h2>
+  <p>Optum Clinformatics Data Mart is one of the major U.S. claims-and-clinical databases used in cardiovascular pharmacoepidemiology. Linked to Medicare, it captures pharmacy fills, diagnosis and procedure codes, lab values where ordered, and downstream events. It does not capture medication adherence after fill, dosing decisions made between visits, or unstructured clinical notes. It does capture a great deal else.</p>
+  <p>Propensity matching is the workhorse method here. The authors built a logistic regression of the probability of receiving semaglutide versus dulaglutide based on baseline covariates &mdash; age, sex, race, BMI where available, eGFR, HbA1c, prior cardiovascular events, prior medications, comorbidities. They matched 1:1 on the propensity score within calipers. Post-matching standardized differences were under 0.10 across covariates, which is the conventional threshold for adequate balance. The Cox proportional hazards model that produced the 0.78 hazard ratio was further adjusted for residual covariate imbalance.</p>
+  <p>What this method cannot do is balance unobserved confounders. Patients who end up on semaglutide rather than dulaglutide may differ from matched dulaglutide patients on factors a database does not see. Insurance coverage shifts over the study period are real. Prescriber preference for one drug or another correlates with practice setting and panel composition. Patient activation &mdash; whether a patient pushes for a newer agent &mdash; correlates with health behavior generally and is not captured. The authors acknowledge each of these and run sensitivity analyses, which directionally support the primary result, but the residual-confounding risk does not vanish.</p>
+  <p>The paper is therefore a strong observational signal aligned with mechanistic and trial-based expectations rather than a randomized verdict. The closest randomized evidence remains SUSTAIN-10, which showed greater HbA1c reduction with semaglutide than dulaglutide but was not powered for MACE.</p>
+</section>
+
+<section id="caveats">
+  <h2>Caveats Worth Naming</h2>
+  <p>Three deserve attention. First, follow-up averaged less than three years. Cardiovascular benefit signals from GLP-1 trials typically widen over five to seven years; cutting the window short can either underestimate or overestimate the steady-state effect, and the direction is not predictable. Second, the analysis did not break out cardiovascular death from nonfatal MI and nonfatal stroke in the abstract version available; component-level hazard ratios will matter for clinical reasoning, and they will appear in the full text. Third, dosing was not standardized. Semaglutide and dulaglutide have different dose-response curves, and prescriber comfort with titration to higher doses has shifted over the study period. A drug being given at a higher proportional dose than its comparator could explain part of the observed difference. The authors note this in their limitations.</p>
+  <p>One more methodological point. The cohorts were initiators &mdash; patients starting therapy &mdash; rather than prevalent users. Initiator designs avoid the immortal-time bias that plagues some observational studies. They also focus the result on what happens when therapy is begun, which is the clinically actionable question.</p>
+</section>
+
+<section id="how-it-fits">
+  <h2>How It Fits With The Wider GLP-1 Story</h2>
+  <p>Step back. The GLP-1 class is now a cardiovascular class, and the within-class differentiation has become its own research question. <a href="/peptides/tirzepatide">Tirzepatide</a>, the dual GIP/GLP-1 agonist, has the SURPASS-CVOT data showing superiority to dulaglutide on a six-component cardiometabolic endpoint. <a href="/peptides/retatrutide">Retatrutide</a>, the triple agonist still in development, has Phase 3 weight-loss data through TRANSCEND-T2D-1 and a pending cardiovascular outcomes trial. The new Medicare comparison places semaglutide ahead of dulaglutide on hard MACE in older adults &mdash; a result that fits the emerging hierarchy: tirzepatide &gt; semaglutide &gt; dulaglutide on cardiometabolic endpoints, with the gradient being larger between dulaglutide and the newer agents than within the newer agents.</p>
+  <p>This week's data also land alongside a separate <a href="https://medicalxpress.com/news/2026-02-oral-semaglutide-heart-failure-events.html" rel="noopener">JAMA Internal Medicine secondary analysis</a> of the SOUL trial showing that oral semaglutide reduced heart failure events by about 22% in patients with type 2 diabetes and prevalent heart failure, an effect that tracked the once-weekly injectable signal. The convergence of the oral and injectable data strengthens the within-molecule cardiovascular case for semaglutide and softens the relevance of the dose-form question.</p>
+  <p>For the regulated GLP-1 class, indication and label drift is the year ahead's story. For the rest of the peptide therapeutic universe &mdash; the BPC-157, MOTS-c, and similar compounds the FDA's <a href="/blog/fda-2025-n-6895-pcac-peptide-public-comments">PCAC docket</a> is reviewing this summer &mdash; the evidentiary picture remains thin. The two ends of the peptide regulatory map keep diverging.</p>
+</section>
+
+<section id="related-research">
+  <h2>Related Peptides And Context On PeptideKnow</h2>
+  <p>Profiles for the GLP-1 receptor agonists and dual/triple-agonist compounds named in this study and its framing:</p>
+  <div class="related-peptides-list">
+    <a href="/peptides/semaglutide" class="blog-learn-link">Semaglutide Profile</a>
+    <a href="/peptides/dulaglutide" class="blog-learn-link">Dulaglutide Profile</a>
+    <a href="/peptides/tirzepatide" class="blog-learn-link">Tirzepatide Profile</a>
+    <a href="/peptides/retatrutide" class="blog-learn-link">Retatrutide Profile</a>
+    <a href="/peptides/liraglutide" class="blog-learn-link">Liraglutide Profile</a>
+  </div>
+  <p>For broader context, see PeptideKnow's <a href="/categories/cardiovascular">cardiovascular peptides</a> and <a href="/categories/weight-loss-metabolic">weight-loss and metabolic</a> indices. Recent related coverage includes <a href="/blog/tirzepatide-pci-tavr-cardiac-outcomes-scai-2026">SCAI 2026 procedural cardiology data on tirzepatide</a> and the <a href="/blog/tirzepatide-vs-semaglutide-cost-effectiveness-surmount-5">SURMOUNT-5 cost-effectiveness analysis</a>.</p>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>Does this study mean every patient on dulaglutide should switch to semaglutide?</h3>
+  <p>No. A 22% relative risk reduction on MACE in a propensity-matched cohort is a strong signal but not a treatment mandate. Switching established therapy carries its own costs &mdash; tolerability re-titration, adherence disruption, insurance reauthorization, and the small risk of a worse response in an individual patient who tolerated dulaglutide well. The clinical conversation it prompts is for new starts, not blanket switches. Patients on dulaglutide who are doing well on the drug have no need to change.</p>
+
+  <h3>How does this compare with SUSTAIN-10, the randomized head-to-head?</h3>
+  <p>SUSTAIN-10 randomized 577 patients to semaglutide 1.0 mg or dulaglutide 1.5 mg for 40 weeks. Semaglutide produced greater HbA1c reduction (-1.5% vs -1.1%) and greater weight loss (-5.8 kg vs -1.9 kg). The trial was not powered to detect cardiovascular outcomes differences. The new Medicare analysis is the cardiovascular-outcomes complement to SUSTAIN-10, and it goes the same direction.</p>
+
+  <h3>Why focus on Medicare patients specifically?</h3>
+  <p>Older adults with type 2 diabetes carry the highest absolute cardiovascular risk and produce the most events per unit of follow-up time, which gives a study like this its statistical power. Medicare's age-65-and-up population also reflects the patients in whom the cardiovascular benefit of GLP-1 therapy matters most in absolute terms. The trade-off is generalizability: results in a 68-year-old Medicare cohort may not extrapolate cleanly to a 45-year-old commercial-insurance cohort, where baseline event rates are an order of magnitude lower.</p>
+
+  <h3>Where does retatrutide fit?</h3>
+  <p>Retatrutide is the next molecule in the line. Lilly's TRANSCEND-T2D-1 Phase 3 program reported in 2025 showed glycemic and weight-loss superiority over older comparators, with dedicated cardiovascular outcomes data still pending. If retatrutide's hierarchy holds, the gradient will extend further: triple agonist &gt; dual agonist &gt; older GLP-1 monotherapy. Whether that translates into hard MACE differences will require the dedicated outcomes trial, which is enrolling.</p>
+
+  <h3>Does this affect FDA peptide reclassification?</h3>
+  <p>No. The FDA's ongoing peptide-compounding policy work, including the <a href="/blog/fda-503b-glp1-compounding-proposal">503B bulks list proposal</a> for GLP-1 agonists and the broader PCAC docket on research peptides, is a regulatory question about manufacturing pathways and access, not a question about within-class clinical superiority. The Medicare comparative-effectiveness paper informs prescribing among approved branded products. The compounding docket informs whether non-FDA-approved versions of those products and a separate set of unapproved peptides can be made by outsourcing facilities and prescribed off-label. Different rooms in the same building.</p>
+</section>
+
+<section id="sources">
+  <h2>Sources</h2>
+  <ul>
+    <li>Comparative cardiovascular outcomes of once-weekly semaglutide versus once-weekly dulaglutide in Medicare beneficiaries with type 2 diabetes. PubMed ID 41508706. <a href="https://pubmed.ncbi.nlm.nih.gov/41508706/" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/41508706/</a> (accessed May 6, 2026).</li>
+    <li>Oral semaglutide and heart failure events in T2D: SOUL trial secondary analysis, JAMA Internal Medicine. Reported by Medical Xpress, Feb 2026. <a href="https://medicalxpress.com/news/2026-02-oral-semaglutide-heart-failure-events.html" rel="noopener">https://medicalxpress.com/news/2026-02-oral-semaglutide-heart-failure-events.html</a></li>
+    <li>Eli Lilly. Retatrutide Phase 3 TRANSCEND-T2D-1 results press release. <a href="https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant" rel="noopener">https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant</a></li>
+    <li>BiopharmaDive coverage of FDA peptide reclassification framework. <a href="https://www.biopharmadive.com/news/fda-peptides-rfk-advisory-committee-restrictions/817685/" rel="noopener">https://www.biopharmadive.com/news/fda-peptides-rfk-advisory-committee-restrictions/817685/</a></li>
+    <li>SUSTAIN-10 trial: Pratley RE et al. Semaglutide versus dulaglutide once weekly in patients with type 2 diabetes (SUSTAIN-10). The Lancet Diabetes &amp; Endocrinology, 2018.</li>
+  </ul>
+</section>

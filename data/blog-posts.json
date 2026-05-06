@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "semaglutide-vs-dulaglutide-cardiovascular-medicare-2026",
+      "title": "Semaglutide beats dulaglutide on MACE in 75,243-patient Medicare comparison",
+      "subtitle": "A propensity-matched study of older adults with type 2 diabetes finds 22% lower three-point MACE on once-weekly semaglutide versus dulaglutide.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-06",
+      "dateModified": "2026-05-06",
+      "image": "/static/images/blog-semaglutide-vs-dulaglutide-cardiovascular-medicare-2026.png",
+      "category": "Clinical evidence",
+      "tags": [
+        "semaglutide",
+        "dulaglutide",
+        "GLP-1",
+        "MACE",
+        "cardiovascular outcomes",
+        "Medicare",
+        "comparative effectiveness"
+      ],
+      "readTime": "9 min read",
+      "excerpt": "A 75,243-patient Medicare propensity-matched study finds once-weekly semaglutide cut three-point MACE 22% versus dulaglutide in older type 2 diabetes adults.",
+      "metaDescription": "A Medicare 75,243-patient propensity-matched study finds once-weekly semaglutide cut three-point MACE 22% vs dulaglutide (HR 0.78, p<0.001) over 3 years.",
+      "keywords": "semaglutide vs dulaglutide, GLP-1 cardiovascular outcomes, MACE comparison, Medicare type 2 diabetes, comparative effectiveness, hazard ratio 0.78, Optum Clinformatics, once-weekly GLP-1, propensity matched, cardiovascular pharmacoepidemiology"
+    },
+    {
       "slug": "fda-503b-semaglutide-tirzepatide-exclusion",
       "title": "FDA proposes excluding semaglutide and tirzepatide from the 503B bulks list",
       "subtitle": "What the June 29, 2026 docket means for compounding, \u201cresearch use only\u201d marketing, and the next phase of GLP-1 enforcement.",
