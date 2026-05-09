@@ -15596,6 +15596,122 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32884586/"
         }
       ]
+    },
+    {
+      "name": "Avexitide",
+      "slug": "avexitide",
+      "alternativeNames": [
+        "Exendin(9-39)",
+        "EXE-9-39",
+        "AMX0114 (legacy code)"
+      ],
+      "categories": [
+        "weight-loss-metabolic",
+        "gastrointestinal"
+      ],
+      "description": "Avexitide is an investigational, first-in-class glucagon-like peptide-1 (GLP-1) receptor antagonist derived from exendin(9-39), a 31-amino-acid truncated fragment of exendin-4 (the parent peptide of exenatide). Removing the first eight residues converts the agonist into a competitive antagonist at the GLP-1 receptor. Avexitide is being developed by Amylyx Pharmaceuticals (NASDAQ: AMLX) for post-bariatric hypoglycemia (PBH) following Roux-en-Y gastric bypass. The pivotal Phase 3 LUCIDITY trial (NCT06747468) completed enrollment in March 2026 with 78 participants; topline results are expected in Q3 2026. The drug holds FDA Breakthrough Therapy Designation for both PBH and congenital hyperinsulinism, Orphan Drug Designation for hyperinsulinemic hypoglycemia, and Rare Pediatric Disease Designation for congenital HI.",
+      "mechanismOfAction": "Avexitide binds the GLP-1 receptor (GLP-1R) on pancreatic islet beta cells and acts as a competitive antagonist, blocking endogenous GLP-1 from coupling the receptor to its downstream Gs/cAMP/PKA cascade. In post-bariatric hypoglycemia, surgical rerouting of the gastrointestinal tract delivers nutrients to distal L-cells faster than in an unaltered gut, producing an exaggerated postprandial GLP-1 surge that drives excessive glucose-dependent insulin secretion and a delayed but severe drop in blood glucose. By antagonizing the receptor, avexitide blunts the inappropriate insulin spike while preserving baseline glucose homeostasis. The molecule does not address GLP-1 effects on gastric emptying or central satiety to a degree that would induce hypoglycemia recovery side effects.",
+      "benefits": [
+        "First-in-class therapeutic strategy for post-bariatric hypoglycemia",
+        "53% reduction in Level 2 hypoglycemia events in Phase 2b at 90 mg dose (p=0.004)",
+        "66% reduction in Level 3 hypoglycemia events in Phase 2b at 90 mg dose (p=0.0003)",
+        "Generally well-tolerated across five Phase 1 and Phase 2 trials",
+        "Targets the underlying pathology (excessive GLP-1 signal) rather than symptoms",
+        "Subcutaneous once-daily dosing"
+      ],
+      "researchStatus": "Investigational. Phase 3 LUCIDITY trial enrollment complete (March 2026); topline data expected Q3 2026. Expanded Access Program opened May 5, 2026 for up to 250 U.S. adults with PBH following RYGB. Anticipated commercial launch 2027 if approved. Not FDA-approved for any indication.",
+      "aminoAcidSequence": "31-amino-acid peptide derived from exendin(9-39); truncated form of the 39-amino-acid exendin-4 with N-terminal residues 1-8 removed (converts agonist to antagonist)",
+      "molecularWeight": "~3369 g/mol",
+      "synergisticCompounds": [],
+      "relatedPeptides": [
+        "Exenatide",
+        "Semaglutide",
+        "Liraglutide",
+        "Tirzepatide",
+        "Dulaglutide"
+      ],
+      "sideEffects": [
+        "Generally well-tolerated across clinical trials per sponsor reports",
+        "Injection site reactions (subcutaneous administration)",
+        "Detailed Phase 3 safety profile pending Q3 2026 readout"
+      ],
+      "dosageNotes": "Investigational; not approved. Phase 3 LUCIDITY dose: 90 mg subcutaneous once daily. This dose follows the Phase 2b arm that demonstrated statistically significant reductions in Level 2 and Level 3 hypoglycemic events.",
+      "references": [
+        {
+          "title": "ClinicalTrials.gov NCT06747468 - Avexitide for Treatment of Post-Bariatric Hypoglycemia (LUCIDITY)",
+          "url": "https://clinicaltrials.gov/study/NCT06747468"
+        },
+        {
+          "title": "Amylyx Announces U.S. Expanded Access Program for Avexitide (May 5, 2026)",
+          "url": "https://www.stocktitan.net/news/AMLX/amylyx-pharmaceuticals-announces-u-s-expanded-access-program-for-9r01djukefl4.html"
+        },
+        {
+          "title": "Amylyx Announces Completion of Enrollment in Pivotal Phase 3 LUCIDITY Trial",
+          "url": "https://www.amylyx.com/news/amylyx-pharmaceuticals-announces-completion-of-enrollment-in-pivotal-phase-3-lucidity-clinical-trial-of-avexitide-in-post-bariatric-hypoglycemia"
+        },
+        {
+          "title": "Amylyx Announces Pivotal Phase 3 LUCIDITY Trial Design",
+          "url": "https://www.amylyx.com/news/amylyx-pharmaceuticals-announces-pivotal-phase-3-lucidity-trial-design-for-glp-1-receptor-antagonist-avexitide-in-post-bariatric-hypoglycemia"
+        },
+        {
+          "title": "Amylyx Q1 2026 Financial Results (May 7, 2026)",
+          "url": "https://www.amylyx.com/news/amylyx-pharmaceuticals-reports-first-quarter-2026-financial-results"
+        }
+      ],
+      "regulatoryStatus": {
+        "lastUpdated": "2026-05",
+        "status": "investigational",
+        "label": "Investigational - Phase 3",
+        "details": "Investigational drug undergoing pivotal Phase 3 evaluation (LUCIDITY, NCT06747468). FDA Breakthrough Therapy Designation for post-bariatric hypoglycemia and congenital hyperinsulinism. Orphan Drug Designation for hyperinsulinemic hypoglycemia. Rare Pediatric Disease Designation for congenital hyperinsulinism. Not approved for any indication; access available through clinical trial participation or the Amylyx Expanded Access Program."
+      },
+      "contraindications": [
+        {
+          "condition": "Use Outside the Indicated Population",
+          "severity": "relative",
+          "details": "Avexitide is being developed for post-bariatric hypoglycemia in adults following Roux-en-Y gastric bypass. Use in patients without PBH or in patients on GLP-1 receptor agonists is not supported by clinical data and is pharmacologically counterproductive."
+        },
+        {
+          "condition": "Pregnancy / Lactation",
+          "severity": "relative",
+          "details": "Insufficient safety data in pregnant or breastfeeding women. Avoid unless benefits clearly outweigh theoretical risks under qualified clinical supervision."
+        }
+      ],
+      "drugInteractions": [
+        {
+          "drug": "GLP-1 Receptor Agonists (semaglutide, tirzepatide, liraglutide, dulaglutide, exenatide)",
+          "severity": "major",
+          "details": "Pharmacologically opposed mechanisms; co-administration is self-defeating and not clinically appropriate. The agonist would compete with avexitide at the GLP-1 receptor."
+        }
+      ],
+      "fdaSafetyNotes": "Investigational; full FDA safety labeling pending review of Phase 3 LUCIDITY data anticipated Q3 2026.",
+      "dosage": {
+        "typicalRange": "Investigational - 90 mg SC daily (LUCIDITY Phase 3 dose)",
+        "frequency": "Once daily",
+        "cycleDuration": "16 weeks double-blind in Phase 3, 32-week open-label extension",
+        "beginner": "Not applicable; investigational use only via clinical trial or Expanded Access Program",
+        "intermediate": "Not applicable; investigational use only",
+        "advanced": "Not applicable; investigational use only",
+        "notes": "Avexitide is investigational. Access is limited to enrolled patients in LUCIDITY (now closed to enrollment) and adults with PBH following RYGB who qualify for the Amylyx Expanded Access Program."
+      },
+      "routesOfAdministration": [
+        {
+          "route": "Subcutaneous Injection",
+          "bioavailability": "Investigational; not publicly disclosed for avexitide formulation",
+          "notes": "Once-daily subcutaneous administration in LUCIDITY Phase 3."
+        }
+      ],
+      "stackingProtocols": [],
+      "reconstitution": {
+        "solvent": "Investigational formulation; details not publicly disclosed",
+        "typicalVolume": "Not publicly disclosed",
+        "storage": "Per Amylyx investigational product handling guidelines provided to clinical trial sites",
+        "stability": "Per investigational product handling guidelines",
+        "notes": "Reconstitution and storage details available only to clinical trial sites and Expanded Access Program participants."
+      },
+      "halfLife": "Short half-life consistent with the parent exendin(9-39) fragment; once-daily 90 mg subcutaneous dosing provides therapeutic exposure across the postprandial window in PBH patients",
+      "storage": "Investigational product; storage per sponsor instructions",
+      "clinicalTrialStatus": "Phase 3 LUCIDITY (NCT06747468) enrollment completed March 2026; topline data Q3 2026. Five prior Phase 1 and Phase 2 trials completed. Expanded Access Program opened May 5, 2026.",
+      "pharmacokinetics": "31-amino-acid peptide derived from exendin(9-39). Subcutaneous administration. Specific PK parameters proprietary to Amylyx clinical development program."
     }
   ]
 }
