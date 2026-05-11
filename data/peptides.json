@@ -15712,6 +15712,290 @@
       "storage": "Investigational product; storage per sponsor instructions",
       "clinicalTrialStatus": "Phase 3 LUCIDITY (NCT06747468) enrollment completed March 2026; topline data Q3 2026. Five prior Phase 1 and Phase 2 trials completed. Expanded Access Program opened May 5, 2026.",
       "pharmacokinetics": "31-amino-acid peptide derived from exendin(9-39). Subcutaneous administration. Specific PK parameters proprietary to Amylyx clinical development program."
+    },
+    {
+      "name": "EB613 (Oral PTH 1-34 Tablet)",
+      "slug": "eb613-oral-pth-osteoporosis-tablet",
+      "alternativeNames": [
+        "Oral teriparatide tablet",
+        "Entera oral PTH",
+        "Oral anabolic bone tablet"
+      ],
+      "categories": [
+        "healing-recovery",
+        "anti-aging-longevity"
+      ],
+      "description": "EB613 is an oral tablet formulation of recombinant human parathyroid hormone (PTH 1-34) being developed by Entera Bio for postmenopausal osteoporosis. The active molecule is identical to teriparatide (Forteo) \u2014 a 34-amino-acid N-terminal fragment of human PTH that, when delivered in pulsatile rather than continuous fashion, acts as an anabolic bone-forming agent. The novelty of EB613 is the delivery system: a proprietary excipient stack engineered to protect the peptide through stomach acid and pancreatic proteases and to assist transcellular absorption across the intestinal epithelium. If approved, EB613 would be the first oral anabolic bone drug. As of May 2026, Entera has submitted a streamlined Phase 3 protocol to the FDA under a 505(b)(2) IND, with FDA feedback described by the company as imminent. The Phase 3 design is a multinational, randomized, double-blind, placebo-controlled study of approximately 750 postmenopausal women with osteoporosis, with the primary endpoint being percent change in total hip bone mineral density at month 12.",
+      "mechanismOfAction": "Same target as teriparatide: PTH 1-34 binds PTH receptor 1 (PTH1R), a class B GPCR on osteoblasts, osteoclasts, and renal tubular cells. Intermittent pulsatile activation of PTH1R on osteoblasts stimulates new bone formation by reducing osteoblast apoptosis, activating quiescent lining cells, stimulating osteoblast precursor differentiation, and inhibiting the Wnt signaling inhibitors sclerostin and DKK1. The pharmacological challenge for an oral formulation is achieving a peak exposure profile that mimics the pulsatile injection \u2014 high enough and brief enough to produce the anabolic rather than catabolic response.",
+      "benefits": [
+        "Oral administration (tablet) instead of daily subcutaneous injection",
+        "Targets the same anabolic biology as teriparatide",
+        "Phase 2 data showed dose-dependent rise in lumbar spine BMD and anabolic biomarker shifts (P1NP up, CTX down)",
+        "Patient adherence advantage over injectable anabolic therapy",
+        "Potential to expand the eligible-but-declining population of patients refusing injections"
+      ],
+      "researchStatus": "Phase 3 protocol submitted to FDA May 2026 under 505(b)(2) IND. FDA feedback expected imminently. Phase 2 dose-ranging study published. Phase 1 single-tablet vs multi-tablet vs Forteo bridging study completed January 2026. Incremental data submitted to ENDO 2026 and ASBMR.",
+      "aminoAcidSequence": "Same as teriparatide: Ser-Val-Ser-Glu-Ile-Gln-Leu-Met-His-Asn-Leu-Gly-Lys-His-Leu-Asn-Ser-Met-Glu-Arg-Val-Glu-Trp-Leu-Arg-Lys-Lys-Leu-Gln-Asp-Val-His-Asn-Phe (34 AA)",
+      "molecularWeight": "4117.8 g/mol (PTH 1-34 active moiety)",
+      "synergisticCompounds": [
+        "Calcium",
+        "Vitamin D",
+        "Sequential antiresorptive therapy (bisphosphonate or denosumab after course completion)"
+      ],
+      "relatedPeptides": [
+        "Teriparatide",
+        "Abaloparatide",
+        "Full-length PTH (1-84)"
+      ],
+      "sideEffects": [
+        "Expected to inherit teriparatide adverse-effect profile pending Phase 3 data",
+        "Nausea, dizziness, leg cramps (teriparatide class)",
+        "Transient hypercalcemia (teriparatide class)",
+        "Orthostatic hypotension (teriparatide class)",
+        "GI tolerability of the oral formulation specifically remains to be characterized in pivotal trial",
+        "Residual label flag for osteosarcoma risk inherited from teriparatide (rodent data; not confirmed in human surveillance)"
+      ],
+      "dosageNotes": "Single-tablet once-daily formulation selected for Phase 3. Dosing details not finalized in public disclosure. The Phase 2 readout used multi-tablet formulations; the Phase 1 bridging study compared the new single-tablet formulation against Forteo as the active control.",
+      "references": [
+        {
+          "title": "Entera Q1 2026 update and Phase 3 protocol submission",
+          "url": "https://www.biospace.com/press-releases/entera-announces-first-quarter-2026-financial-results-and-updates-across-its-oral-peptide-programs"
+        },
+        {
+          "title": "Oral PTH 1-34 tablet Phase 2 dose-ranging study in postmenopausal women",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35470571/"
+        },
+        {
+          "title": "FDA guidance: Applications covered by section 505(b)(2)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applications-covered-section-505b2"
+        }
+      ],
+      "regulatoryStatus": {
+        "lastUpdated": "2026-05",
+        "status": "investigational",
+        "label": "Investigational Drug \u2014 Phase 3 Pending",
+        "details": "Phase 3 protocol submitted to FDA May 2026 under 505(b)(2) IND. Not FDA-approved. Not commercially available. Use restricted to FDA-authorized clinical trials."
+      },
+      "contraindications": [
+        {
+          "condition": "Investigational only",
+          "severity": "absolute",
+          "details": "EB613 is not approved for any indication. Use is restricted to FDA-authorized clinical trials. Outside trial enrollment there is no legitimate clinical or research-use pathway for this compound."
+        }
+      ],
+      "drugInteractions": [],
+      "fdaSafetyNotes": "Investigational. Safety profile expected to mirror teriparatide pending Phase 3 readout. The residual osteosarcoma label language that applies to teriparatide is expected to apply to EB613.",
+      "dosage": {
+        "typicalRange": "Not finalized",
+        "frequency": "Once daily (Phase 3 single-tablet)",
+        "cycleDuration": "Phase 3 trial duration is 12 months primary endpoint plus 24 months extension",
+        "beginner": "Investigational only \u2014 not available outside trial",
+        "intermediate": "Investigational only \u2014 not available outside trial",
+        "advanced": "Investigational only \u2014 not available outside trial",
+        "notes": "EB613 is not commercially available. Patients eligible for anabolic osteoporosis therapy should consult their physician about approved options (teriparatide, abaloparatide, romosozumab)."
+      },
+      "routesOfAdministration": [
+        {
+          "route": "Oral (tablet)",
+          "bioavailability": "Not publicly disclosed; the Phase 1 bridging study targeted exposure comparable to Forteo subcutaneous 20 mcg",
+          "notes": "Tablet formulated with proprietary excipient stack to protect peptide through gastric and pancreatic protease activity and assist transcellular intestinal absorption."
+        }
+      ],
+      "stackingProtocols": [],
+      "reconstitution": {
+        "solvent": "N/A \u2014 oral tablet",
+        "typicalVolume": "N/A",
+        "storage": "Investigational; storage conditions per trial protocol",
+        "stability": "Trial-protocol specific",
+        "notes": "No reconstitution required. Oral tablet."
+      },
+      "halfLife": "PTH 1-34 plasma half-life is approximately 1 hour; EB613 PK profile targets comparable Cmax and AUC to subcutaneous Forteo",
+      "storage": "Per clinical trial protocol",
+      "clinicalTrialStatus": "Phase 3 pending \u2014 protocol submitted to FDA May 2026. Phase 2 dose-ranging complete. Phase 1 bridging study completed January 2026.",
+      "pharmacokinetics": "Oral tablet formulation of recombinant PTH 1-34. Single-tablet once-daily dosing selected for Phase 3 based on January 2026 bridging study against Forteo."
+    },
+    {
+      "name": "EB612 (Oral Long-Acting PTH Tablet)",
+      "slug": "eb612-oral-pth-hypoparathyroidism-tablet",
+      "alternativeNames": [
+        "Oral long-acting PTH replacement",
+        "Entera oral PTH replacement",
+        "Oral hypoparathyroidism tablet"
+      ],
+      "categories": [
+        "healing-recovery"
+      ],
+      "description": "EB612 is an oral tablet formulation of long-acting parathyroid hormone being developed by Entera Bio and OPKO Health for the treatment of hypoparathyroidism. Hypoparathyroidism is a chronic endocrine condition in which the parathyroid glands fail to produce sufficient PTH, leading to hypocalcemia, hyperphosphatemia, and a constellation of neuromuscular and cognitive symptoms that calcium and active vitamin D supplementation often fail to control. Approved PTH replacement options are limited: Natpara (recombinant human PTH 1-84, injectable) was withdrawn from the U.S. market in 2024 due to manufacturing issues, and palopegteriparatide (Yorvipath, injectable) was FDA-approved in 2024. EB612 would, if approved, be the first oral PTH replacement therapy in this orphan indication. As of May 2026 the program is preclinical-to-IND, with Entera planning to file an Investigational New Drug application in late 2026 under an expanded 50/50 partnership with OPKO. Tissue-protective TPTX and PK data have been submitted to ENDO 2026.",
+      "mechanismOfAction": "PTH replacement therapy in hypoparathyroidism works by restoring physiological PTH signaling at PTH receptor 1 in kidney and bone. In the kidney, PTH increases distal tubule calcium reabsorption, decreases proximal tubule phosphate reabsorption, and activates 1-alpha-hydroxylase to increase active vitamin D synthesis. In bone, intermittent or continuous PTH signaling regulates remodeling. The therapeutic challenge in hypoparathyroidism is matching physiological exposure \u2014 too brief and the drug fails to control serum calcium; too sustained and the drug shifts the balance toward bone resorption. EB612 is engineered as a long-acting oral formulation to flatten the exposure curve relative to short-acting PTH and approximate the constant low-level PTH tone of a healthy patient.",
+      "benefits": [
+        "Oral administration in an orphan indication where current options require injection",
+        "Long-acting profile designed to approximate physiological PTH tone",
+        "Potential first-line oral alternative to injectable PTH replacement",
+        "OPKO partnership brings hormone biologics development infrastructure"
+      ],
+      "researchStatus": "Preclinical to IND. Entera plans IND filing late 2026. Tissue-protective thyroparathyroidectomy (TPTX) and pharmacokinetic data submitted to ENDO 2026.",
+      "aminoAcidSequence": "Long-acting PTH analog; full sequence not publicly disclosed in current Entera filings",
+      "molecularWeight": "Not publicly disclosed",
+      "synergisticCompounds": [
+        "Calcium supplementation",
+        "Active vitamin D (calcitriol or alfacalcidol)"
+      ],
+      "relatedPeptides": [
+        "Teriparatide",
+        "Full-length PTH (1-84)",
+        "Palopegteriparatide"
+      ],
+      "sideEffects": [
+        "Preclinical only \u2014 human safety profile not characterized",
+        "PTH-class effects expected: potential for transient hypercalcemia, hypocalcemia between doses, headache, nausea"
+      ],
+      "dosageNotes": "Investigational. Dosing regimen will be defined in Phase 1 trials following IND clearance.",
+      "references": [
+        {
+          "title": "Entera Q1 2026 update \u2014 EB612 IND planning and OPKO expansion",
+          "url": "https://www.biospace.com/press-releases/entera-announces-first-quarter-2026-financial-results-and-updates-across-its-oral-peptide-programs"
+        },
+        {
+          "title": "Hypoparathyroidism management guidelines",
+          "url": "https://academic.oup.com/jcem/article/107/9/2376/6605393"
+        }
+      ],
+      "regulatoryStatus": {
+        "lastUpdated": "2026-05",
+        "status": "investigational",
+        "label": "Investigational Drug \u2014 Preclinical / IND Planning",
+        "details": "Preclinical program. Entera plans to file an Investigational New Drug application with the FDA in late 2026. Not FDA-approved. Not commercially available."
+      },
+      "contraindications": [
+        {
+          "condition": "Investigational only",
+          "severity": "absolute",
+          "details": "EB612 has not yet entered human trials. There is no legitimate clinical or research-use pathway outside future FDA-authorized trials."
+        }
+      ],
+      "drugInteractions": [],
+      "fdaSafetyNotes": "Investigational. No human safety data publicly available as of May 2026.",
+      "dosage": {
+        "typicalRange": "Not yet defined",
+        "frequency": "Designed as a long-acting oral formulation",
+        "cycleDuration": "Chronic replacement therapy if approved (hypoparathyroidism is a lifelong condition)",
+        "beginner": "Investigational only \u2014 not available outside trial",
+        "intermediate": "Investigational only \u2014 not available outside trial",
+        "advanced": "Investigational only \u2014 not available outside trial",
+        "notes": "EB612 is not commercially available. Patients with hypoparathyroidism should consult their endocrinologist about approved options (palopegteriparatide/Yorvipath) and standard supportive care."
+      },
+      "routesOfAdministration": [
+        {
+          "route": "Oral (tablet)",
+          "bioavailability": "Not publicly disclosed",
+          "notes": "Long-acting oral PTH formulation based on the Entera tablet platform that underpins EB613."
+        }
+      ],
+      "stackingProtocols": [],
+      "reconstitution": {
+        "solvent": "N/A \u2014 oral tablet",
+        "typicalVolume": "N/A",
+        "storage": "Per trial protocol",
+        "stability": "Trial-protocol specific",
+        "notes": "No reconstitution required."
+      },
+      "halfLife": "Long-acting profile by design; specific PK parameters not publicly disclosed",
+      "storage": "Per clinical trial protocol",
+      "clinicalTrialStatus": "Preclinical. IND filing planned late 2026.",
+      "pharmacokinetics": "Long-acting oral PTH formulation. Designed to approximate physiological PTH tone in patients with hypoparathyroidism. Built on the same Entera tablet platform as EB613, with formulation tuned for sustained release."
+    },
+    {
+      "name": "EB618 (Oral Oxyntomodulin Tablet)",
+      "slug": "eb618-oral-oxyntomodulin-glp1-glucagon-tablet",
+      "alternativeNames": [
+        "Oral OXM tablet",
+        "Oral dual GLP-1/glucagon",
+        "Entera OXM program"
+      ],
+      "categories": [
+        "weight-loss-metabolic"
+      ],
+      "description": "EB618 is an oral tablet formulation of oxyntomodulin (OXM) being developed by Entera Bio for metabolic and fibrotic conditions, including obesity, type 2 diabetes, and metabolic dysfunction-associated steatohepatitis (MASH). Oxyntomodulin is a 37-amino-acid gut peptide co-secreted with GLP-1 by intestinal L-cells after a meal. Unlike pure GLP-1 receptor agonists such as semaglutide, oxyntomodulin activates both the GLP-1 receptor (driving satiety and glycemic control) and the glucagon receptor (driving energy expenditure and potentially better preservation of lean mass during weight loss). Dual GLP-1/glucagon agonism has been a major focus of obesity drug development; injectable dual agonists such as cotadutide and survodutide have shown efficacy in trials. EB618 applies Entera's proprietary tablet excipient platform \u2014 the same technology underpinning EB613 and EB612 \u2014 to the oxyntomodulin scaffold. As of May 2026 the program is in preclinical development. Non-human primate pharmacokinetic data have been submitted to ENDO 2026.",
+      "mechanismOfAction": "Oxyntomodulin binds and activates two class B G-protein-coupled receptors: GLP-1R and glucagon receptor (GCGR). GLP-1R activation slows gastric emptying, suppresses appetite via hypothalamic pathways, and enhances glucose-dependent insulin secretion. GCGR activation increases hepatic glucose output and energy expenditure, and may improve hepatic lipid handling \u2014 a property of particular interest in MASH. The dual mechanism produces weight loss with a different body-composition signature than pure GLP-1 agonism: theoretically less lean mass loss and better metabolic efficiency. Tuning the GLP-1R/GCGR activation ratio is the core pharmacological design challenge for any OXM-class drug.",
+      "benefits": [
+        "Dual GLP-1/glucagon receptor activation versus single-receptor GLP-1 agonism",
+        "Potential for better lean mass preservation during weight loss",
+        "Mechanistic rationale for MASH and fibrotic liver disease beyond pure GLP-1 agents",
+        "Oral tablet route in a class currently dominated by injectables"
+      ],
+      "researchStatus": "Preclinical. NHP pharmacokinetic data submitted to ENDO 2026.",
+      "aminoAcidSequence": "Native human oxyntomodulin is 37 AA: His-Ser-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Lys-Tyr-Leu-Asp-Ser-Arg-Arg-Ala-Gln-Asp-Phe-Val-Gln-Trp-Leu-Met-Asn-Thr-Lys-Arg-Asn-Arg-Asn-Asn-Ile-Ala. Specific EB618 analog sequence not publicly disclosed.",
+      "molecularWeight": "~4448 g/mol (native human oxyntomodulin reference)",
+      "synergisticCompounds": [
+        "Lifestyle modification (diet, resistance training)"
+      ],
+      "relatedPeptides": [
+        "Semaglutide",
+        "Tirzepatide",
+        "Glucagon",
+        "GLP-1 (7-37)",
+        "Cotadutide",
+        "Survodutide"
+      ],
+      "sideEffects": [
+        "Preclinical only \u2014 human safety profile not characterized",
+        "GLP-1 class effects expected: nausea, vomiting, delayed gastric emptying",
+        "Glucagon agonism may increase hepatic glucose output and could raise fasting glucose in some patients \u2014 the design challenge is balancing the two arms"
+      ],
+      "dosageNotes": "Investigational. Human dosing will be defined in Phase 1 trials following IND clearance.",
+      "references": [
+        {
+          "title": "Entera Q1 2026 update \u2014 EB618 NHP PK data and program status",
+          "url": "https://www.biospace.com/press-releases/entera-announces-first-quarter-2026-financial-results-and-updates-across-its-oral-peptide-programs"
+        },
+        {
+          "title": "Oxyntomodulin: a novel pharmacological agent for treating obesity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15531540/"
+        }
+      ],
+      "regulatoryStatus": {
+        "lastUpdated": "2026-05",
+        "status": "investigational",
+        "label": "Investigational Drug \u2014 Preclinical",
+        "details": "Preclinical program. Not yet in human trials. Not FDA-approved. Not commercially available."
+      },
+      "contraindications": [
+        {
+          "condition": "Investigational only",
+          "severity": "absolute",
+          "details": "EB618 has not entered human trials. There is no legitimate clinical or research-use pathway outside future FDA-authorized trials."
+        }
+      ],
+      "drugInteractions": [],
+      "fdaSafetyNotes": "Investigational. No human safety data publicly available as of May 2026.",
+      "dosage": {
+        "typicalRange": "Not yet defined",
+        "frequency": "Not yet defined",
+        "cycleDuration": "Not yet defined",
+        "beginner": "Investigational only \u2014 not available outside trial",
+        "intermediate": "Investigational only \u2014 not available outside trial",
+        "advanced": "Investigational only \u2014 not available outside trial",
+        "notes": "EB618 is not commercially available. Patients seeking GLP-1 or dual-agonist metabolic therapy should consult their physician about approved options (semaglutide, tirzepatide, etc.)."
+      },
+      "routesOfAdministration": [
+        {
+          "route": "Oral (tablet)",
+          "bioavailability": "Not publicly disclosed",
+          "notes": "Oxyntomodulin tablet built on the Entera tablet excipient platform."
+        }
+      ],
+      "stackingProtocols": [],
+      "reconstitution": {
+        "solvent": "N/A \u2014 oral tablet",
+        "typicalVolume": "N/A",
+        "storage": "Per trial protocol",
+        "stability": "Trial-protocol specific",
+        "notes": "No reconstitution required."
+      },
+      "halfLife": "Native oxyntomodulin half-life is approximately 12 minutes due to rapid DPP-4 cleavage; long-acting OXM analogs are engineered for resistance to DPP-4 and extended half-life. EB618 PK parameters not publicly disclosed.",
+      "storage": "Per clinical trial protocol",
+      "clinicalTrialStatus": "Preclinical. NHP PK data presented at ENDO 2026.",
+      "pharmacokinetics": "Oral tablet formulation of an oxyntomodulin analog. Built on the Entera tablet platform. Designed for dual GLP-1R/GCGR agonism with an undisclosed but tuned activation ratio."
     }
   ]
 }
