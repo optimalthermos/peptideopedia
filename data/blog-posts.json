@@ -1,6 +1,32 @@
 {
   "posts": [
     {
+      "slug": "gep44-triple-agonist-glp1-pyy-syracuse-obesity-peptide",
+      "title": "GEP-44: What the Syracuse Triple-Agonist Peptide Actually Is, and What the Press Got Wrong",
+      "subtitle": "A 44-amino-acid chimeric peptide hitting GLP-1, Y1, and Y2 receptors is real and scientifically interesting. The May 2026 press cycle comparing it to liraglutide oversimplifies a preclinical rodent study against exendin-4. Here is the honest version.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-12",
+      "dateModified": "2026-05-12",
+      "image": "/static/images/blog-gep44-triple-agonist-glp1-pyy-syracuse-obesity-peptide.png",
+      "category": "Mechanism & Neuroscience",
+      "tags": [
+        "GEP-44",
+        "triple agonist",
+        "GLP-1",
+        "peptide YY",
+        "Y1 receptor",
+        "Y2 receptor",
+        "Syracuse University",
+        "Robert Doyle",
+        "preclinical",
+        "obesity peptide"
+      ],
+      "readTime": "12 min read",
+      "excerpt": "Syracuse's GEP-44 is a chimeric GLP-1/Y1/Y2 peptide with strong rodent and shrew data but no human trials. What the press got wrong, and what to track next.",
+      "metaDescription": "GEP-44 chimeric peptide explained: GLP-1/Y1/Y2 triple-receptor design, what the Doyle Group's preclinical data show, and why the press comparator is wrong.",
+      "keywords": "GEP-44, GEP44, triple agonist peptide, GLP-1 PYY peptide, Syracuse obesity peptide, Doyle Group, Y1 Y2 receptor agonist, chimeric multi-agonist peptide, KCEM1, next generation GLP-1, anti-nausea GLP-1, preclinical obesity peptide"
+    },
+    {
       "slug": "entera-bio-eb613-oral-peptide-osteoporosis-phase3-fda",
       "title": "Entera Submits Phase 3 Protocol for EB613, the First Oral Anabolic Bone Tablet",
       "subtitle": "FDA feedback is described as imminent. If approved, EB613 would deliver teriparatide as a swallowed tablet instead of a daily injection \u2014 a delivery shift that could reshape who actually receives anabolic osteoporosis therapy.",

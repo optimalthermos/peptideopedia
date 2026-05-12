@@ -15996,6 +15996,113 @@
       "storage": "Per clinical trial protocol",
       "clinicalTrialStatus": "Preclinical. NHP PK data presented at ENDO 2026.",
       "pharmacokinetics": "Oral tablet formulation of an oxyntomodulin analog. Built on the Entera tablet platform. Designed for dual GLP-1R/GCGR agonism with an undisclosed but tuned activation ratio."
+    },
+    {
+      "name": "GEP-44 (Chimeric GLP-1/Y1/Y2 Multi-Agonist)",
+      "slug": "gep44-triple-agonist-glp1-pyy-syracuse-obesity",
+      "alternativeNames": [
+        "GEP44",
+        "Doyle Group chimeric peptide",
+        "GLP-1/Y1/Y2 triple agonist"
+      ],
+      "categories": [
+        "weight-loss-metabolic"
+      ],
+      "description": "GEP-44 is a 44-amino-acid chimeric peptide developed in the laboratory of Robert Doyle at Syracuse University, in collaboration with the Blevins/Roth groups at the VA Puget Sound and University of Washington. It is a multi-receptor agonist designed to activate the GLP-1 receptor (GLP-1R) together with two peptide YY receptors, Y1 (NPY1R) and Y2 (NPY2R). In rodent and shrew models published between 2021 and 2025, GEP-44 produced greater reduction in body weight and energy intake than the GLP-1-only reference compound exendin-4, with substantially less emesis-like behavior in shrews \u2014 the standard animal model for GLP-1-induced nausea. A GLP-1R knockout study published in 2024 showed that GEP-44's metabolic effects in mice depend primarily on GLP-1R signaling, with the Y1R and Y2R arms modulating rather than substituting for the GLP-1 signal. A 2025 energy expenditure follow-up showed weight loss was driven by reduced food intake and increased lipid oxidation, while energy expenditure on the drug was actually decreased. As of May 2026, GEP-44 is preclinical \u2014 there is no active IND filing, no registered Phase 1 trial on ClinicalTrials.gov, and no human safety or efficacy data. The current formulation requires once-daily subcutaneous injection; the Syracuse team has stated it is working on a long-acting reformulation. A sister compound, KCEM1, comes from the same program. Both compounds have generated preclinical signals in obesity, type 2 diabetes, and opioid-craving models.",
+      "mechanismOfAction": "GEP-44 binds and activates three class B G-protein-coupled receptors: GLP-1R (glucagon-like peptide 1 receptor), Y1R (neuropeptide Y receptor type 1), and Y2R (neuropeptide Y receptor type 2). The published mechanistic work supports a signal-biased model in which Y1R agonism partially antagonizes one branch of GLP-1R downstream signaling \u2014 specifically the branch implicated in GLP-1-induced nausea \u2014 while leaving the appetite-suppressing and glycemic-control branches intact. The 2024 GLP-1R knockout study established that the metabolic readouts (body weight, energy intake, fasting glucose, core temperature) are GLP-1R-dependent. The Y1R/Y2R arms appear to tune the GLP-1 signal rather than provide an independent additive weight-loss mechanism. This design philosophy differs from the additive multi-agonist class (retatrutide, survodutide) which stacks GIP and glucagon agonism onto a GLP-1 backbone for additive efficacy.",
+      "benefits": [
+        "Multi-receptor signal-bias design aimed at decoupling weight loss from nausea",
+        "Outperformed exendin-4 on body weight reduction in diet-induced obese rats",
+        "Near-absence of emesis in shrew models vs exendin-4",
+        "Reduces fasting blood glucose in diet-induced obese mice via GLP-1R",
+        "Preclinical signal in opioid-seeking behavior models (per Syracuse team interviews)"
+      ],
+      "researchStatus": "Preclinical. Published rodent and shrew efficacy and mechanism data from 2021\u20132025. No active IND. No registered Phase 1 trial on ClinicalTrials.gov as of May 2026. The Doyle Group has stated intentions to advance through IND-enabling studies.",
+      "aminoAcidSequence": "44-amino-acid chimeric peptide; full sequence is published in Brierley et al. 2021 supplementary material",
+      "molecularWeight": "Approximately 4900 g/mol (44 AA chimeric peptide)",
+      "synergisticCompounds": [],
+      "relatedPeptides": [
+        "Semaglutide",
+        "Tirzepatide",
+        "Liraglutide",
+        "Exendin-4",
+        "Retatrutide",
+        "Survodutide",
+        "Peptide YY (PYY)",
+        "KCEM1"
+      ],
+      "sideEffects": [
+        "Preclinical only \u2014 no human safety data",
+        "GI tolerability in shrew models substantially better than exendin-4; relevance to humans unknown",
+        "Decreased energy expenditure observed in rats \u2014 may limit long-term efficacy as the body adapts",
+        "Daily-injection formulation may produce injection-site reactions in eventual human trials (not yet characterized)"
+      ],
+      "dosageNotes": "Investigational. Animal doses in published trials ranged from 5 to 50 nmol/kg subcutaneously. No human dose has been defined.",
+      "references": [
+        {
+          "title": "Brierley et al. 2021 \u2014 original GEP-44 design and shrew emesis data",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33449689/"
+        },
+        {
+          "title": "Doyle Group 2023 \u2014 Y1R/GLP-1R signal-bias pharmacology in islets",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37308546/"
+        },
+        {
+          "title": "Honeycutt et al. 2024 \u2014 GLP-1R knockout mechanism study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39104812/"
+        },
+        {
+          "title": "Roth Group 2025 \u2014 energy expenditure follow-up",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39829931/"
+        },
+        {
+          "title": "Syracuse University News, January 2025 \u2014 Doyle Group profile",
+          "url": "https://news.syr.edu/2025/01/07/peptide-drug-advances-being-made-on-syracuse-university-campus-working-to-redefine-obesity-diabetes-care/"
+        }
+      ],
+      "regulatoryStatus": {
+        "lastUpdated": "2026-05",
+        "status": "investigational",
+        "label": "Investigational Compound \u2014 Preclinical Only",
+        "details": "GEP-44 is a preclinical academic research compound. No FDA approval. No active Investigational New Drug application has been publicly disclosed. No Phase 1 trial registered on ClinicalTrials.gov. Not commercially available. Any product sold under the name GEP-44 by a research-chemical supplier is not connected to the published academic compound."
+      },
+      "contraindications": [
+        {
+          "condition": "Preclinical investigational only",
+          "severity": "absolute",
+          "details": "GEP-44 has not been tested in humans. There is no legitimate clinical or research-use pathway for this compound outside future FDA-authorized trials, which have not been registered. Products sold online under this name are not the published compound."
+        }
+      ],
+      "drugInteractions": [],
+      "fdaSafetyNotes": "GEP-44 is not approved by the FDA for any indication. No human safety profile exists. Any product sold under this name is not the published academic compound and has no quality control linking it to the peer-reviewed source material.",
+      "dosage": {
+        "typicalRange": "Not defined in humans",
+        "frequency": "Once-daily subcutaneous injection in published animal studies",
+        "cycleDuration": "Animal studies ran 3 to several days; chronic human dosing not characterized",
+        "beginner": "Investigational only \u2014 not available outside trial",
+        "intermediate": "Investigational only \u2014 not available outside trial",
+        "advanced": "Investigational only \u2014 not available outside trial",
+        "notes": "GEP-44 is not commercially available. Patients seeking GLP-1 therapy should consult their physician about FDA-approved options (semaglutide, tirzepatide, liraglutide, dulaglutide)."
+      },
+      "routesOfAdministration": [
+        {
+          "route": "Subcutaneous injection",
+          "bioavailability": "Not characterized in humans",
+          "notes": "Animal studies used once-daily subcutaneous dosing. The Syracuse team has stated it is working on a long-acting reformulation that has not been disclosed in published data."
+        }
+      ],
+      "stackingProtocols": [],
+      "reconstitution": {
+        "solvent": "Not applicable outside clinical trial",
+        "typicalVolume": "N/A",
+        "storage": "Per future trial protocol",
+        "stability": "Not characterized",
+        "notes": "No legitimate reconstitution protocol exists outside future FDA-authorized trials."
+      },
+      "halfLife": "Not publicly characterized; current formulation requires once-daily injection in animal studies",
+      "storage": "Per future clinical trial protocol",
+      "clinicalTrialStatus": "Preclinical. No registered Phase 1 trial as of May 2026.",
+      "pharmacokinetics": "Chimeric 44-amino-acid peptide. Published animal PK data not yet detailed in public literature. Once-daily injection profile in current formulation. Long-acting reformulation is under development per the Doyle Group's stated work plan."
     }
   ]
 }
