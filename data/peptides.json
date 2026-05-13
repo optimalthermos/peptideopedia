@@ -16103,6 +16103,90 @@
       "storage": "Per future clinical trial protocol",
       "clinicalTrialStatus": "Preclinical. No registered Phase 1 trial as of May 2026.",
       "pharmacokinetics": "Chimeric 44-amino-acid peptide. Published animal PK data not yet detailed in public literature. Once-daily injection profile in current formulation. Long-acting reformulation is under development per the Doyle Group's stated work plan."
+    },
+    {
+      "name": "HL4 (Macrocyclic Insulin Receptor Agonist)",
+      "slug": "hl4-macrocyclic-insulin-receptor-agonist-rapid-excells",
+      "alternativeNames": [
+        "HL4 macrocycle",
+        "Suga Lab IR agonist",
+        "RaPID-ExCells HL4",
+        "FYLWF-motif cyclic peptide"
+      ],
+      "categories": [
+        "weight-loss-metabolic"
+      ],
+      "description": "HL4 is a 19-residue cyclic peptide that activates the human insulin receptor (IR) on intact cells. It was reported on March 12, 2026 in Angewandte Chemie International Edition by Kuo, Mihara, Takagi and Suga (DOI 10.1002/anie.202526008). The molecule was discovered using RaPID-ExCells, a variant of the RaPID mRNA-display system that screens libraries of around 10^12 to 10^13 thioether-cyclized peptides directly against full-length IR on HEK293 cells, with detergent lysis and co-immunoprecipitation as the recovery step. Of 11 top affinity-enriched hits the team made, ten bound IR (some with Kd as low as 2 to 50 nM) but only HL4 (Kd around 132 nM) activated the receptor. HL4's activating pharmacophore is an FYLWF aromatic motif at positions 9 to 13, which mirrors the FYXWF motif present in earlier linear insulin-mimetic peptides such as Novo Nordisk's S597. Deep mutational scanning with 66 amino acids, including 47 non-proteinogenic residues, showed that p-methyl- and p-fluoro-phenylalanine at position 9 raised activity by roughly 1.5-fold and that D-tyrosine at position 5 was tolerated. The team built an HL4 homodimer using two HL4 monomers linked by PEG11 spacers to a central L-2,3-diaminopropionic acid core. The homodimer's EC50 for IR autophosphorylation is around 460 nM (versus around 720 nM for the monomer), gives about 2.5-fold the autophosphorylation signal at 1 micromolar, has a serum half-life around 51 hours, and selectively activates IR over the closely related IGF-1 receptor. HL4 is a research molecule. It is not approved for any human use, has no IND filing, and has not been tested clinically.",
+      "mechanismOfAction": "HL4 is an allosteric agonist of the insulin receptor that binds at or near site 2 on the IR ectodomain. The FYLWF aromatic clamp at positions 9 to 13 is the activating contact, structurally analogous to the FYXWF motif of linear insulin-mimetic peptides like S597. As a monomer, HL4 produces partial activation. As a homodimer built with two HL4 heads linked through PEG11 spacers and an L-Dap core, HL4 spans the IR alpha-alpha dimer interface and produces stronger autophosphorylation, recapitulating insulin's bivalent engagement of the receptor dimer. Selectivity for IR over IGF-1R appears to be driven by the geometric spacing of binding sites on IR versus IGF-1R, which the PEG11 linker length matches preferentially.",
+      "benefits": [
+        "Selective activation of the insulin receptor over IGF-1R",
+        "Long serum half-life (around 51 hours) for the homodimer construct, even without dedicated PK optimization",
+        "Cyclic backbone provides protease resistance",
+        "Tolerates non-proteinogenic amino acids, opening medicinal-chemistry optimization headroom",
+        "Defined chemistry and synthetic accessibility for follow-on analog programs"
+      ],
+      "researchStatus": "Preclinical, cell-based only. The published work characterizes binding, activation, and serum half-life in vitro. No in vivo animal pharmacology has been published. No IND filing. No clinical trial.",
+      "aminoAcidSequence": "Macrocyclic peptide, 19 residues, thioether-cyclized. Activating motif FYLWF at positions 9-13. Full sequence reported in the supplementary information of the Angewandte Chemie paper.",
+      "molecularWeight": "Approximately 2.4 kDa as monomer; homodimer with PEG11 linkers and L-Dap core approximately 6 kDa",
+      "synergisticCompounds": [],
+      "relatedPeptides": [
+        "semaglutide",
+        "tirzepatide",
+        "gep44-triple-agonist-glp1-pyy-syracuse-obesity"
+      ],
+      "sideEffects": [
+        "No safety data in humans or animals as of the May 2026 publication"
+      ],
+      "dosageNotes": "Not applicable. HL4 is a research compound. There is no established dose for any species in any indication.",
+      "references": [
+        {
+          "title": "Direct Selection of Functional De Novo Macrocycles for Activation of On-Cellulo Insulin Receptor",
+          "authors": "Kuo YH, Mihara E, Takagi J, Suga H",
+          "journal": "Angewandte Chemie International Edition",
+          "year": 2026,
+          "doi": "10.1002/anie.202526008",
+          "url": "https://doi.org/10.1002/anie.202526008"
+        },
+        {
+          "title": "PubMed listing for the Kuo et al. 2026 paper",
+          "authors": "Kuo YH et al.",
+          "journal": "PubMed",
+          "year": 2026,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41815006/"
+        },
+        {
+          "title": "Free full text in PMC",
+          "authors": "Kuo YH et al.",
+          "journal": "PMC",
+          "year": 2026,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13098473/"
+        },
+        {
+          "title": "Function-First Macrocycles - American Peptide Society research feature",
+          "authors": "American Peptide Society",
+          "journal": "americanpeptidesociety.org",
+          "year": 2026,
+          "url": "https://americanpeptidesociety.org/research/function-first-macrocycles/"
+        }
+      ],
+      "regulatoryStatus": "Research compound. No FDA approval, no IND filing, not marketed in any jurisdiction.",
+      "contraindications": [
+        "Not applicable - no human use established"
+      ],
+      "drugInteractions": [
+        "No drug interaction data published"
+      ],
+      "fdaSafetyNotes": "Not evaluated by the FDA.",
+      "dosage": "Not applicable. Reported in vitro potencies: monomer EC50 for IR autophosphorylation around 720 nM; homodimer EC50 around 460 nM.",
+      "routesOfAdministration": [
+        "Not applicable - cell-based research only"
+      ],
+      "stackingProtocols": [],
+      "reconstitution": "Not applicable",
+      "halfLife": "Homodimer serum half-life approximately 51 hours in vitro (published in the 2026 Kuo et al. paper). Monomer half-life not separately reported.",
+      "storage": "Standard cyclic peptide storage practices apply for research use.",
+      "clinicalTrialStatus": "No clinical trials. No active IND filing.",
+      "pharmacokinetics": "Limited published PK. Homodimer in vitro serum half-life around 51 hours, reflecting the protease resistance of the cyclic backbone combined with the PEG11 linker mass. Bioavailability and tissue distribution data have not been published."
     }
   ]
 }

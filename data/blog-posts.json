@@ -1,6 +1,32 @@
 {
   "posts": [
     {
+      "slug": "suga-rapid-excells-macrocyclic-peptide-insulin-receptor-agonist",
+      "title": "Suga Lab's RaPID-ExCells Finds HL4, a Macrocyclic Insulin Receptor Agonist",
+      "subtitle": "A new mRNA-display platform that screens cyclic peptide libraries against intact cells turned up a function-first hit on the insulin receptor that affinity-only screens would have thrown away. The methodology may be the bigger story than the molecule.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-13",
+      "dateModified": "2026-05-13",
+      "image": "/static/images/blog-suga-rapid-excells-macrocyclic-peptide-insulin-receptor-agonist.png",
+      "category": "Drug Discovery & Platforms",
+      "tags": [
+        "RaPID-ExCells",
+        "Suga Lab",
+        "macrocyclic peptide",
+        "insulin receptor",
+        "mRNA display",
+        "HL4",
+        "function-first selection",
+        "Angewandte Chemie",
+        "University of Tokyo",
+        "drug discovery platform"
+      ],
+      "readTime": "13 min read",
+      "excerpt": "Hiroaki Suga's lab at Tokyo published a cell-based mRNA display platform that found HL4, a cyclic peptide insulin receptor agonist with a 51-hour half-life dimer.",
+      "metaDescription": "Suga Lab's RaPID-ExCells platform discovers HL4, a macrocyclic peptide that activates the insulin receptor on cells. Function-first selection beats affinity.",
+      "keywords": "RaPID-ExCells, HL4 peptide, Suga lab, macrocyclic peptide insulin receptor, function-first peptide selection, mRNA display drug discovery, Angewandte Chemie 2026, FYLWF motif, insulin mimetic peptide, cyclic peptide agonist"
+    },
+    {
       "slug": "gep44-triple-agonist-glp1-pyy-syracuse-obesity-peptide",
       "title": "GEP-44: What the Syracuse Triple-Agonist Peptide Actually Is, and What the Press Got Wrong",
       "subtitle": "A 44-amino-acid chimeric peptide hitting GLP-1, Y1, and Y2 receptors is real and scientifically interesting. The May 2026 press cycle comparing it to liraglutide oversimplifies a preclinical rodent study against exendin-4. Here is the honest version.",

@@ -1,0 +1,120 @@
+<section id="lede">
+  <h2>What Was Published</h2>
+  <p>A team led by Hiroaki Suga at the University of Tokyo, working with Junichi Takagi's group at the Institute for Protein Research at Osaka University, has published a method that changes how peptide drug candidates can be selected against complex membrane receptors. The paper appeared in <em>Angewandte Chemie International Edition</em> on March 12, 2026, with the formal title "Direct Selection of Functional De Novo Macrocycles for Activation of On-Cellulo Insulin Receptor." It carries the DOI <a href="https://doi.org/10.1002/anie.202526008" rel="noopener">10.1002/anie.202526008</a>, sits on PubMed at <a href="https://pubmed.ncbi.nlm.nih.gov/41815006/" rel="noopener">PMID 41815006</a>, and was featured by the American Peptide Society on May 12, 2026 as <a href="https://americanpeptidesociety.org/research/function-first-macrocycles/" rel="noopener">"Function-First Macrocycles"</a>.</p>
+  <p>The headline result is a single macrocyclic peptide named <a href="/peptides/hl4-macrocyclic-insulin-receptor-agonist-rapid-excells">HL4</a> that binds and activates the human insulin receptor on intact cells, and a homodimer construct built from it with a serum half-life of around 51 hours. The deeper result is the platform itself: a variant of Suga's RaPID mRNA-display system that screens trillions of cyclic peptides against receptors in their native cellular environment, rather than against purified domains stuck to a plate. The platform is called RaPID-ExCells.</p>
+</section>
+
+<section id="quick-takeaways">
+  <h2>Key Facts</h2>
+  <ul>
+    <li><strong>Paper:</strong> Kuo Y-H, Mihara E, Takagi J, Suga H. <em>Angew. Chem. Int. Ed.</em> 2026 Mar 12. DOI 10.1002/anie.202526008.</li>
+    <li><strong>Platform:</strong> RaPID-ExCells &mdash; mRNA display of cyclic peptide libraries against intact mammalian cells, with detergent lysis preserving receptor conformation and co-immunoprecipitation for recovery.</li>
+    <li><strong>Target in this study:</strong> Human insulin receptor (IR), full-length, on HEK293 cells.</li>
+    <li><strong>Hit:</strong> HL4, a cyclic peptide. Kd around 132 nM. EC50 for IR autophosphorylation around 720 nM as a monomer.</li>
+    <li><strong>Function-first finding:</strong> Of 11 top affinity-selected peptides, only HL4 activated the receptor. Several non-functional peptides bound more tightly than HL4.</li>
+    <li><strong>Pharmacophore:</strong> An FYLWF aromatic motif at positions 9 to 13 is essential for IR activation. The motif mirrors the FYXWF sequence in earlier linear insulin-mimetic peptides such as Novo Nordisk's S597.</li>
+    <li><strong>Engineering:</strong> Deep mutational scanning using 66 amino acids, including 47 non-proteinogenic residues. <em>para</em>-methyl- and <em>para</em>-fluoro-phenylalanine at position 9 raised activity roughly 1.5-fold. D-tyrosine at position 5 was tolerated.</li>
+    <li><strong>Homodimer:</strong> Two HL4 monomers linked by PEG11 spacers to an L-Dap core. EC50 for IR autophosphorylation around 460 nM. Roughly 2.5-fold autophosphorylation at 1 &micro;M compared with the monomer. Serum half-life around 51 hours.</li>
+    <li><strong>Selectivity:</strong> IR over IGF-1R despite the close structural relationship between the two receptors.</li>
+    <li><strong>Generality of the platform:</strong> RaPID-ExCells in principle works against any cell-surface receptor or membrane protein that can be recovered by co-immunoprecipitation.</li>
+  </ul>
+</section>
+
+<section id="why-this-paper">
+  <h2>Why This Paper Is a Big Deal Even If You Have Never Heard of It</h2>
+  <p>Most drug screens for peptides that hit cell-surface receptors are run against the receptor's extracellular domain. The domain is cloned, expressed in <em>E. coli</em> or insect cells, purified, and pinned to a surface. A library of peptides washes over the surface. The peptides that stick get sequenced. Then a chemist makes the top hits and tests them on real cells to see if any of them do anything.</p>
+  <p>This works. It also fails in a particular way. Many receptors only fold correctly, or only present the binding surface a drug needs to hit, when they are sitting in a cell membrane with their full transmembrane and cytoplasmic regions attached and the right lipid environment around them. The insulin receptor is one of the harder cases. It is a constitutive dimer with two extracellular alpha subunits and two transmembrane beta subunits joined by disulfide bonds. Its activated conformation involves rearrangement of the dimer, not just occupancy of a site. A peptide that sticks tightly to a chunk of purified IR ectodomain may or may not engage the receptor in a way that produces signaling once you put it back on a cell.</p>
+  <p>RaPID-ExCells skips the purification step. The library &mdash; on the order of 10^12 to 10^13 distinct cyclic peptides &mdash; is panned directly against HEK293 cells overexpressing the full-length receptor. The cells are then gently lysed with a mild nonionic detergent that keeps the receptor's quaternary structure intact. The receptor, with whatever peptides it has captured, is pulled down with an antibody. The bound peptides go to next-generation sequencing. Suga's group has been moving the RaPID system in this direction for years; this paper is the cleanest demonstration on a receptor that defeats easier screens.</p>
+</section>
+
+<section id="function-first">
+  <h2>The Function-First Insight</h2>
+  <p>Here is the part that should be on the wall of every drug-discovery lab working with peptides. The Tokyo and Osaka teams selected 11 of their top affinity-enriched cyclic peptides from the screen. They made them. They measured binding to the insulin receptor by surface plasmon resonance. They measured receptor activation by autophosphorylation on cells.</p>
+  <p>Ten of the 11 peptides bound the receptor. Some bound very tightly &mdash; Kd values between 2 nM and 50 nM. One activated the receptor.</p>
+  <p>That peptide was HL4. Its measured Kd was 132 nM, well behind the strongest binders. By the standard logic of an affinity screen &mdash; pick the tightest binders, optimize from there &mdash; HL4 would have been deprioritized. The team had nothing in their selection method that biased toward functional binders rather than any binders. What rescued HL4 from being discarded was the second step: testing the cellular activity of multiple hits in parallel rather than only the tightest few.</p>
+  <p>The biological message is that for a complex receptor, tight binding is not a proxy for productive binding. The methodological message is sharper. Affinity-first screens are the industry standard for a reason &mdash; they are tractable, fast, and produce numerical rankings. But for hard targets they can throw away exactly the molecules that would have been valuable. The RaPID-ExCells paper is the cleanest evidence in years that on at least some receptors, you have to look at function in parallel with affinity. Function-first selection, the authors argue, deserves to become the default for receptor agonist programs.</p>
+</section>
+
+<section id="hl4-detail">
+  <h2>What HL4 Actually Looks Like</h2>
+  <p>HL4 is a cyclic peptide of 19 amino acid residues. Its core sequence is closed through a thioether bond formed during the RaPID translation step, the same chemistry that all RaPID cyclic peptides share. Its activating motif is the five-residue stretch FYLWF at positions 9 to 13: phenylalanine, tyrosine, leucine, tryptophan, phenylalanine. Three aromatic residues flanking a leucine and a tryptophan.</p>
+  <p>That motif is not an accident. In the 1990s, peptide chemists screening linear libraries against the insulin receptor identified a family of insulin-mimetic linear peptides built around a sequence pattern that came to be written FYXWF, where X is variable. Novo Nordisk's S597 is the best-known example. Those peptides bind a specific allosteric site on the IR ectodomain &mdash; site 2 &mdash; and produce partial activation. They have never reached the clinic, because their potency was too low and their pharmacokinetics were poor.</p>
+  <p>HL4 is what you get if you let mRNA display search the cyclic-peptide universe for an activator and the search lands on the same pharmacophore. The aromatic clamp at site 2 is convergent: it shows up in linear chemistry and in cyclic chemistry, in 1990s screens and in 2026 cell-based screens. The implication is that the FYXWF / FYLWF region of insulin-mimetic activity is a real and stable design feature, not a quirk of any one screening method. That gives a chemist with a list of analogs to make a justified place to start.</p>
+  <p>The team then ran deep mutational scanning with 66 amino acids, of which 47 were non-proteinogenic. Substituting position 9 with <em>para</em>-methyl-phenylalanine or <em>para</em>-fluoro-phenylalanine raised activity by about 50 percent. Substituting position 5 with D-tyrosine was tolerated. The point is not the magnitude of the improvement &mdash; 1.5-fold is modest &mdash; but the demonstration that the cyclic backbone is permissive enough to accept noncanonical residues, which opens up properties like protease resistance and tunable hydrophobicity that you cannot get from natural amino acids alone.</p>
+</section>
+
+<section id="homodimer">
+  <h2>From Hit to Drug-Shaped Molecule</h2>
+  <p>Insulin itself activates the IR by binding both halves of the dimer in a way that brings them into a productive conformation. A monomeric peptide that binds one half can give partial activation but rarely full agonism. The Suga team made the conceptually obvious next move: link two HL4 molecules together so that one drug molecule can engage both halves.</p>
+  <p>The construct they describe uses two HL4 monomers connected through PEG11 spacers anchored to a central L-2,3-diaminopropionic acid (L-Dap) residue. The PEG11 spacers give enough length to span the receptor dimer; the L-Dap core gives a defined branching point. The resulting homodimer activates IR autophosphorylation with an EC50 of about 460 nM, compared with about 720 nM for the monomer, and gives roughly 2.5-fold the autophosphorylation signal at 1 &micro;M.</p>
+  <p>The dimer has two practical properties that matter beyond the EC50 number. Its serum half-life in vitro is around 51 hours, which puts it in the long-acting range for a peptide that has not been formally optimized for pharmacokinetics. And it discriminates between the insulin receptor and the closely related IGF-1 receptor, which is a non-trivial selectivity problem given how similar the two receptors are structurally. The selectivity probably reflects fine geometric matching between the dimer's two HL4 heads and the specific spacing of binding sites on IR versus IGF-1R.</p>
+  <p>None of this makes HL4 a drug. It is not in any clinical trial. There is no IND. There is no oral formulation. The work shows that the molecule has the kind of properties &mdash; selectivity, half-life, defined mechanism &mdash; that a chemist would want as a starting point for medicinal optimization. The next steps for the program are unspecified in the paper itself.</p>
+</section>
+
+<section id="platform-vs-drug">
+  <h2>The Platform Is the Story</h2>
+  <p>It is tempting to read this paper as "Tokyo and Osaka labs find new insulin-mimetic peptide" and move on. That misses the more important claim. The insulin receptor was chosen as a test case partly because it is hard. If RaPID-ExCells works on IR, the same method should work on a long list of other receptors that have resisted clean peptide drug discovery: many G-protein-coupled receptors with complex conformational landscapes, receptor tyrosine kinases that signal as dimers or higher-order assemblies, transporters and channels that present binding surfaces only in specific membrane environments.</p>
+  <p>The peptide field has spent the last decade absorbing several discovery-platform shifts at once. Phage display gave way to mRNA display for routine cyclic-peptide selection because mRNA display scales further and tolerates more chemical diversity. Computational design tools, especially those based on AlphaFold and its successors, opened up de novo binder design without screening at all. RaPID-ExCells sits in a third category: a screening method that takes the strengths of mRNA display &mdash; library size, chemical diversity, defined chemistry &mdash; and pairs them with a biologically realistic readout that computational tools cannot yet reliably replicate.</p>
+  <p>How widely the platform spreads depends on practical factors. Co-immunoprecipitation works well for some receptors and badly for others. The mild detergent step that preserves IR's dimer state will not preserve every protein's relevant conformation. Some receptors live in lipid rafts or have lipid co-factors that detergent disrupts. The next two years of papers from the Suga lab and from groups that pick up the method will show where RaPID-ExCells lands on the spectrum from "broadly applicable" to "specialty tool for a few targets."</p>
+</section>
+
+<section id="context">
+  <h2>Where This Fits in the Insulin-Mimetic Story</h2>
+  <p>Insulin-mimetic peptides have been a quiet research line since the 1990s. The motivation is straightforward. Insulin works extraordinarily well; the manufacturing, storage, and delivery infrastructure for it does not. Recombinant insulin requires a cold chain. It is injected. Its dosing is unforgiving on either side. A small-molecule or peptide insulin-mimetic that activated IR without those constraints &mdash; especially one with oral or extended-release options &mdash; would change the practical economics of type 1 and insulin-dependent type 2 diabetes care, particularly outside high-income countries.</p>
+  <p>Several insulin-mimetic peptide families have been described. S597 and its derivatives bind site 2 on IR. Aptamers that bind IR have been published. Single-chain insulin analogs have been engineered for improved manufacturability. None has reached the clinic as an insulin replacement. Most have run aground on potency, half-life, or manufacturability problems &mdash; or on the broader observation that recombinant insulin is, despite its delivery problems, a remarkably good drug and a high bar to clear.</p>
+  <p>HL4 is unlikely to clear that bar in its current form. Its potency, even as a homodimer, is well below physiological insulin. Its oral availability is unknown. The point of the paper is not that HL4 is the next insulin. The point is that RaPID-ExCells found a functional IR agonist that earlier methods would have missed, with a defined chemistry that supports medicinal optimization, in a single round of selection. If the next IR-targeted peptide that comes out of the same platform has 10-fold better potency and a viable formulation, that is when this paper will be cited as the methodological starting point.</p>
+</section>
+
+<section id="practical">
+  <h2>What This Means for Different Audiences</h2>
+  <p>For peptide chemists: RaPID-ExCells is now available as a published method for receptors that have defeated affinity-only screens. The function-first message &mdash; test cellular activity on multiple top hits in parallel, not just the strongest binder &mdash; applies to almost every peptide drug-discovery program against a complex receptor, not only insulin.</p>
+  <p>For people in the diabetes and metabolic space: HL4 is not a clinical candidate. It is a proof-of-platform molecule. The realistic interpretation is that there will be a second-generation insulin-mimetic peptide from this lab or a successor lab within a few years that has substantially improved properties. Whether that molecule reaches the clinic depends on potency optimization, formulation work, and the unforgiving comparison against recombinant insulin.</p>
+  <p>For people watching the broader peptide field: the methods toolkit is widening fast. Computational de novo binder design from groups like the Baker lab and follow-ons. Cell-based mRNA display from the Suga lab. Continued advances in non-natural amino acid incorporation. Most peptide drug programs five years from now will use some combination of these tools. The teams that figure out which method fits which target class will have a significant advantage.</p>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>Is HL4 a treatment for diabetes?</h3>
+  <p>No, not in its present form. It is an experimental peptide that activates the insulin receptor on cells in a dish. It has not been tested in animals as a glucose-lowering agent in the paper as published, has no IND filing, no clinical trial, and no formulation work for human use. It is a research molecule that demonstrates a new selection method.</p>
+
+  <h3>How is RaPID-ExCells different from regular RaPID?</h3>
+  <p>Standard RaPID screens cyclic peptide libraries against purified protein targets bound to a surface. RaPID-ExCells screens the same libraries against full-length receptors on live cells, then recovers bound peptides by detergent lysis and co-immunoprecipitation. The difference matters for receptors whose binding surface depends on their membrane environment or quaternary structure, which includes most receptor tyrosine kinases and many GPCRs.</p>
+
+  <h3>What does "function-first selection" mean in practical terms?</h3>
+  <p>It means picking lead candidates based on what they do on cells rather than how tightly they stick to a purified target. In this paper, the tightest binder was not the activator. The team caught HL4 by testing multiple top hits for cellular activity in parallel, not by trusting the affinity ranking alone. Generalized: assay function early, not after you have already narrowed to the top one or two affinity picks.</p>
+
+  <h3>Why does the FYLWF motif keep showing up?</h3>
+  <p>The insulin receptor has an allosteric binding site &mdash; site 2 &mdash; that has a shape complementary to a cluster of aromatic and hydrophobic side chains. When you let a screen search the peptide universe for activators, the chemistry that fits site 2 keeps being rediscovered. Linear-peptide screens in the 1990s found the FYXWF pattern. Cyclic-peptide mRNA display in 2026 finds FYLWF. The motif is essentially the part of an insulin-mimetic peptide where the molecule "grabs" the receptor in the configuration that drives activation. The cyclic backbone gives you better pharmacological properties around that grab.</p>
+
+  <h3>Is this related to GLP-1 drugs like Ozempic?</h3>
+  <p>Different receptor, different mechanism, different therapeutic area. GLP-1 receptor agonists like semaglutide activate the GLP-1 receptor and produce weight loss and improved glycemic control through that pathway. HL4 activates the insulin receptor directly. They are both peptides, but the targets, the mechanisms, and the clinical use cases are distinct. RaPID-ExCells could in principle be used to find new GLP-1R agonists too &mdash; that would be a separate paper.</p>
+
+  <h3>What is the next milestone to watch?</h3>
+  <p>Two things. First, papers from the Suga lab or labs that license the method applying RaPID-ExCells to other receptors &mdash; especially GPCRs and receptor tyrosine kinases that have resisted clean peptide discovery. Second, follow-up papers on the HL4 family &mdash; potency optimization, animal pharmacology, oral or long-acting formulation work. Both are reasonable to expect within roughly two years.</p>
+</section>
+
+<section id="related">
+  <h2>Related Coverage on PeptideKnow</h2>
+  <ul>
+    <li>Background on small-molecule and peptide insulin receptor pharmacology: <a href="/categories/weight-loss-metabolic">Weight-loss and metabolic peptides</a></li>
+    <li>The dominant peptide drug class in the same therapeutic area: <a href="/peptides/semaglutide">Semaglutide</a> and <a href="/peptides/tirzepatide">Tirzepatide</a></li>
+    <li>A different chimeric multi-receptor peptide approach to metabolic disease: <a href="/peptides/gep44-triple-agonist-glp1-pyy-syracuse-obesity">GEP-44</a></li>
+    <li>An earlier example of academic peptide discovery moving toward the clinic: <a href="/peptides/eb613-oral-pth-osteoporosis-tablet">EB613 oral PTH(1-34)</a></li>
+    <li>Profile of the lead molecule from this paper: <a href="/peptides/hl4-macrocyclic-insulin-receptor-agonist-rapid-excells">HL4 macrocyclic IR agonist</a></li>
+  </ul>
+</section>
+
+<section id="sources">
+  <h2>Sources</h2>
+  <ul>
+    <li>Kuo Y-H, Mihara E, Takagi J, Suga H. "Direct Selection of Functional De Novo Macrocycles for Activation of On-Cellulo Insulin Receptor." <em>Angewandte Chemie International Edition.</em> Published online March 12, 2026. DOI <a href="https://doi.org/10.1002/anie.202526008" rel="noopener">10.1002/anie.202526008</a>.</li>
+    <li>PubMed listing: <a href="https://pubmed.ncbi.nlm.nih.gov/41815006/" rel="noopener">PMID 41815006</a>.</li>
+    <li>Free full text (PMC): <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13098473/" rel="noopener">PMC13098473</a>.</li>
+    <li>American Peptide Society research feature: <a href="https://americanpeptidesociety.org/research/function-first-macrocycles/" rel="noopener">"Function-First Macrocycles," May 12, 2026</a>.</li>
+    <li>Suga Lab, University of Tokyo: <a href="https://www.chem.s.u-tokyo.ac.jp/users/seibutu/" rel="noopener">Department of Chemistry, Graduate School of Science</a>.</li>
+    <li>Takagi Lab, Institute for Protein Research, Osaka University: <a href="https://www.protein.osaka-u.ac.jp/" rel="noopener">IPR Osaka</a>.</li>
+    <li>Background on the FYXWF insulin-mimetic motif: Sch&auml;ffer L et al. "A novel high-affinity peptide antagonist to the insulin receptor." <em>Biochemical and Biophysical Research Communications.</em> 2008. <a href="https://pubmed.ncbi.nlm.nih.gov/18585368/" rel="noopener">PMID 18585368</a>.</li>
+  </ul>
+  <p class="article-disclaimer"><em>This article reports on preclinical research published in a peer-reviewed journal. HL4 is not a drug. It is not approved for any use in humans. Nothing here is medical advice.</em></p>
+</section>
