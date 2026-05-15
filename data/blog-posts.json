@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "fda-pcac-peptide-bulks-list-july-2026",
+      "title": "FDA\u2019s July 2026 Peptide Compounding Meeting: What PCAC Could Change for BPC-157, TB-500, Semax, and More",
+      "subtitle": "A plain-English guide to the 503A Bulks List process, the seven peptides on FDA\u2019s agenda, and what \u2018Category 2\u2019 changes do\u2014and don\u2019t\u2014mean.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-15",
+      "dateModified": "2026-05-15",
+      "image": "/static/images/blog-fda-pcac-peptide-bulks-list-july-2026.png",
+      "category": "Regulation",
+      "tags": [
+        "FDA",
+        "503A",
+        "compounding",
+        "PCAC",
+        "BPC-157",
+        "TB-500",
+        "Semax",
+        "Epitalon"
+      ],
+      "readTime": "10 min read",
+      "excerpt": "FDA will hold a July 23\u201324, 2026 PCAC meeting on seven peptide bulk substances. Here\u2019s what it means for 503A compounding and what changes\u2014and what doesn\u2019t.",
+      "metaDescription": "FDA\u2019s July 23\u201324, 2026 PCAC meeting will review seven peptide bulk substances for possible 503A compounding. What it means for BPC-157, TB-500, Semax.",
+      "keywords": "FDA PCAC July 2026, 503A bulks list peptides, peptide compounding meeting, BPC-157 FDA, TB-500 FDA, Semax compounding, Epitalon Epithalon, KPV peptide, MOTS-c peptide, DSIP emideltide"
+    },
+    {
       "slug": "suga-rapid-excells-macrocyclic-peptide-insulin-receptor-agonist",
       "title": "Suga Lab's RaPID-ExCells Finds HL4, a Macrocyclic Insulin Receptor Agonist",
       "subtitle": "A new mRNA-display platform that screens cyclic peptide libraries against intact cells turned up a function-first hit on the insulin receptor that affinity-only screens would have thrown away. The methodology may be the bigger story than the molecule.",
