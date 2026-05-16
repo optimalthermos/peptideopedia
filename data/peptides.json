@@ -16187,6 +16187,83 @@
       "storage": "Standard cyclic peptide storage practices apply for research use.",
       "clinicalTrialStatus": "No clinical trials. No active IND filing.",
       "pharmacokinetics": "Limited published PK. Homodimer in vitro serum half-life around 51 hours, reflecting the protease resistance of the cyclic backbone combined with the PEG11 linker mass. Bioavailability and tissue distribution data have not been published."
+    },
+    {
+      "name": "Danuglipron (Pfizer Discontinued Oral GLP-1)",
+      "slug": "danuglipron-pfizer-discontinued-oral-glp1",
+      "alternativeNames": [
+        "PF-06882961",
+        "Pfizer oral GLP-1"
+      ],
+      "categories": [
+        "weight-loss-metabolic"
+      ],
+      "description": "Danuglipron is a non-peptide small-molecule GLP-1 receptor agonist that Pfizer advanced through clinical development for obesity and type 2 diabetes before discontinuing the program in April 2025 over liver-safety concerns observed in a single Phase 3 participant. Like Eli Lilly's orforglipron, danuglipron binds human GLP-1 receptor by docking against a pocket that requires the tryptophan side chain at position 33 of the extracellular domain. Mice carry a serine at that position, and danuglipron does not bind the mouse receptor at meaningful concentrations. Studying danuglipron pharmacology in vivo therefore required the humanized GLP-1 receptor mouse models developed by groups including the Guler lab at the University of Virginia. In the Godschall et al. Nature paper published May 6, 2026, danuglipron was used alongside orforglipron and liraglutide to demonstrate that small-molecule oral GLP-1 receptor agonists recruit a previously uncharacterized central amygdala circuit that suppresses dopamine release in the nucleus accumbens and selectively reduces hedonic feeding. Although Pfizer halted danuglipron development, the molecule remains a critical reference compound for the small-molecule oral GLP-1 class and is used in academic preclinical studies of GLP-1 receptor pharmacology. Danuglipron is not approved for any indication, was never marketed, and is not available outside research settings.",
+      "mechanismOfAction": "Non-peptide small-molecule agonist at the human GLP-1 receptor. Binds an extracellular pocket adjacent to the orthosteric site, with a critical contact at tryptophan-33 of the receptor. Activates Gs-coupled signaling and cAMP production. In humanized GLP-1 receptor mouse models, danuglipron engages canonical hypothalamic and hindbrain GLP-1 receptor networks that suppress homeostatic feeding, and additionally recruits a central amygdala circuit that reduces dopamine release in the nucleus accumbens to suppress hedonic feeding.",
+      "benefits": [
+        "Oral bioavailability (twice-daily formulation as tested in Pfizer trials)",
+        "Significant reductions in body weight and HbA1c in Phase 2 trials",
+        "Non-peptide manufacturing avoids the cost structure of recombinant peptide GLP-1s",
+        "Used as a reference compound for understanding small-molecule GLP-1 brain pharmacology"
+      ],
+      "researchStatus": "Development discontinued by Pfizer in April 2025 after a hepatic adverse event in a Phase 3 trial. Remains available for academic research. No further commercial development announced.",
+      "aminoAcidSequence": "Not applicable - non-peptide small molecule",
+      "molecularWeight": "Approximately 521 Da",
+      "synergisticCompounds": [],
+      "relatedPeptides": [
+        "orforglipron",
+        "liraglutide",
+        "semaglutide",
+        "tirzepatide"
+      ],
+      "sideEffects": [
+        "Gastrointestinal: nausea, vomiting, diarrhea (class effect)",
+        "Hepatic enzyme elevations reported in Phase 2 and Phase 3 trials",
+        "Single Phase 3 participant developed drug-induced liver injury leading to program discontinuation"
+      ],
+      "dosageNotes": "Twice-daily oral dosing was used in Phase 2 trials at doses up to 120 mg BID. Not applicable for clinical use as the drug is unapproved.",
+      "references": [
+        {
+          "title": "A brain reward circuit inhibited by next-generation weight-loss drugs in mice",
+          "authors": "Godschall EN, Gungul TB, Sajonia IR, et al",
+          "journal": "Nature",
+          "year": 2026,
+          "doi": "10.1038/s41586-026-10444-4",
+          "url": "https://doi.org/10.1038/s41586-026-10444-4"
+        },
+        {
+          "title": "Discovery of orally bioavailable GLP-1R agonists",
+          "authors": "Kawai T et al",
+          "journal": "Proceedings of the National Academy of Sciences",
+          "year": 2020,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32576683/"
+        },
+        {
+          "title": "Pfizer Discontinues Development of Danuglipron, an Oral GLP-1 for Obesity",
+          "authors": "Pfizer Inc.",
+          "journal": "Pfizer Press Release",
+          "year": 2025,
+          "url": "https://www.pfizer.com/news/press-release"
+        }
+      ],
+      "regulatoryStatus": "Never approved. Development discontinued by sponsor.",
+      "contraindications": [
+        "Not applicable - unapproved compound"
+      ],
+      "drugInteractions": [
+        "Likely class effects similar to other GLP-1 agonists: delayed gastric emptying may affect oral drug absorption"
+      ],
+      "fdaSafetyNotes": "Not approved by FDA. Hepatic adverse event observed in Phase 3 trial led to program discontinuation in April 2025.",
+      "dosage": "Not applicable. Phase 2 trials used up to 120 mg twice daily.",
+      "routesOfAdministration": [
+        "Oral (tablet, as formulated in Pfizer trials)"
+      ],
+      "stackingProtocols": [],
+      "reconstitution": "Not applicable - oral formulation",
+      "halfLife": "Approximately 5 to 6 hours, consistent with twice-daily dosing",
+      "storage": "Not applicable - no commercial product",
+      "clinicalTrialStatus": "Development discontinued. Some completed trials remain published references for the small-molecule oral GLP-1 receptor agonist class.",
+      "pharmacokinetics": "Oral bioavailability allowed tablet dosing. Plasma half-life around 5 to 6 hours required twice-daily administration. Hepatic metabolism."
     }
   ]
 }
