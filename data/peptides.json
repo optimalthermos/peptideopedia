@@ -16264,6 +16264,75 @@
       "storage": "Not applicable - no commercial product",
       "clinicalTrialStatus": "Development discontinued. Some completed trials remain published references for the small-molecule oral GLP-1 receptor agonist class.",
       "pharmacokinetics": "Oral bioavailability allowed tablet dosing. Plasma half-life around 5 to 6 hours required twice-daily administration. Hepatic metabolism."
+    },
+    {
+      "name": "BLMP6 (Fibulin-4 Targeting Breast Cancer Peptide)",
+      "slug": "blmp6-peptide-fibulin-4-metastatic-breast-cancer",
+      "alternativeNames": [
+        "Kolonin lab fibulin-4 binder",
+        "anti-fibulin-4 metastasis peptide"
+      ],
+      "categories": [
+        "healing-recovery",
+        "related-compounds"
+      ],
+      "description": "BLMP6 is a synthetic short peptide that binds the extracellular matrix protein fibulin-4 (FBLN4). It was identified by the Kolonin lab at McGovern Medical School at UTHealth Houston using in vivo phage display screening against metastatic breast cancer in xenograft mouse models, and reported in Molecular Therapy Oncology in April 2026 (DOI 10.1016/j.omton.2026.201207). Fibulin-4 is normally a structural component of elastic fibers in connective tissue. The team discovered that fibulin-4 expression is dramatically reorganized and upregulated in the tissue microenvironment of aggressive invasive breast cancers, while normal breast tissue and non-invasive tumors show minimal expression. This difference makes fibulin-4 a useful targeting marker. The team demonstrated two applications. As an imaging probe, BLMP6 conjugated to a fluorescent dye traveled directly to metastatic lesions in mice xenografted with triple-negative breast cancer. As a therapeutic, BLMP6 conjugated to monomethyl auristatin E (MMAE), an FDA-approved cytotoxic warhead used in several antibody-drug conjugates, suppressed metastasis to distant organs and improved survival. The discovery used a combination of phage display, biochemistry, AlphaFold-derived structural prediction, and human tissue array validation. BLMP6 is a research compound and is not approved for human use. No clinical trials have been initiated and no IND filing has been disclosed.",
+      "mechanismOfAction": "BLMP6 binds fibulin-4, an extracellular matrix glycoprotein. Fibulin-4 normally helps assemble tropoelastin into mature elastic fibers in connective tissue. In aggressive invasive breast cancers, fibulin-4 is upregulated and structurally reorganized around the tumor margins, producing a microenvironment signature that distinguishes invasive disease from non-invasive disease and normal tissue. By binding fibulin-4 selectively in this altered conformation, BLMP6 acts as a homing agent that concentrates conjugated payloads (imaging dyes or cytotoxic drugs) at metastatic and pre-metastatic invasive lesions while sparing healthy tissue.",
+      "benefits": [
+        "Targets a feature of the tumor microenvironment rather than a tumor cell surface antigen, broadening applicability to cancers lacking clean receptor targets",
+        "Functions both as an imaging probe and as a drug-delivery vehicle",
+        "Triple-negative breast cancer applicability validated in preclinical mouse models",
+        "Smaller and cheaper to manufacture than antibody-drug conjugates",
+        "Better tumor tissue penetration than typical antibody-based therapies",
+        "Defined synthetic chemistry"
+      ],
+      "researchStatus": "Preclinical. Efficacy demonstrated in mouse xenograft models of triple-negative breast cancer. Human tissue array validation completed. No animal toxicology in a second species reported. No IND filing. No clinical trials initiated.",
+      "aminoAcidSequence": "Short synthetic peptide. Full sequence reported in the supplementary information of the Daquinag et al. 2026 paper.",
+      "molecularWeight": "Not specified in initial coverage; consistent with a short synthetic peptide (under 2 kDa)",
+      "synergisticCompounds": [
+        "monomethyl auristatin E (MMAE) - covalent conjugate"
+      ],
+      "relatedPeptides": [],
+      "sideEffects": [
+        "No human safety data established",
+        "Potential off-target binding to fibulin-4 in non-cancer connective tissue conditions has not been fully characterized"
+      ],
+      "dosageNotes": "Not applicable - research compound only. Mouse xenograft studies used specific doses reported in the primary publication.",
+      "references": [
+        {
+          "title": "Fibulin-4 expressed in metastatic breast cancer is a target of peptide-based imaging probes and experimental therapeutics",
+          "authors": "Daquinag AC, Zhang S, An Z, Azhdarinia A, Ghosh S, Farmer S, Ramesh AK, AghaAmiri S, Hernandez Vargas S, Kolonin M",
+          "journal": "Molecular Therapy Oncology",
+          "year": 2026,
+          "doi": "10.1016/j.omton.2026.201207",
+          "url": "https://doi.org/10.1016/j.omton.2026.201207"
+        },
+        {
+          "title": "Preclinical efficacy of experimental peptide therapy suggests a new target for metastatic breast cancer treatments",
+          "authors": "Catherine Marfin",
+          "journal": "Medical Xpress",
+          "year": 2026,
+          "url": "https://medicalxpress.com/news/2026-04-preclinical-efficacy-experimental-peptide-therapy.html"
+        }
+      ],
+      "regulatoryStatus": "Not approved. Research compound only.",
+      "contraindications": [
+        "Not applicable - no human use established"
+      ],
+      "drugInteractions": [
+        "No drug interaction data published"
+      ],
+      "fdaSafetyNotes": "Not evaluated by the FDA.",
+      "dosage": "Not applicable - research compound only.",
+      "routesOfAdministration": [
+        "Intravenous injection in preclinical studies"
+      ],
+      "stackingProtocols": [],
+      "reconstitution": "Standard short-peptide reconstitution practices apply for research use.",
+      "halfLife": "Not formally reported. Peptide-drug conjugates of this size typically have short serum half-lives that may require linker optimization for clinical translation.",
+      "storage": "Standard short-peptide storage practices apply for research use.",
+      "clinicalTrialStatus": "No clinical trials. No active IND filing.",
+      "pharmacokinetics": "Limited published PK. Mouse biodistribution studies confirmed accumulation at metastatic lesions; serum half-life and detailed PK have not been reported in the public literature."
     }
   ]
 }

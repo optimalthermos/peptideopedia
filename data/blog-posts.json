@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "slug": "blmp6-peptide-fibulin-4-metastatic-breast-cancer-uthealth",
+      "title": "BLMP6: UTHealth's Fibulin-4-Targeting Peptide for Metastatic Breast Cancer",
+      "subtitle": "A short synthetic peptide identified by in vivo phage display binds an extracellular matrix protein upregulated around invasive tumors. As an imaging probe it lights up metastases in mice; as a drug conjugate it suppresses them. Kolonin lab, Molecular Therapy Oncology, April 2026.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-17",
+      "dateModified": "2026-05-17",
+      "image": "/static/images/blog-blmp6-peptide-fibulin-4-metastatic-breast-cancer-uthealth.png",
+      "category": "Oncology Peptides",
+      "tags": [
+        "BLMP6",
+        "fibulin-4",
+        "metastatic breast cancer",
+        "triple-negative breast cancer",
+        "peptide-drug conjugate",
+        "phage display",
+        "Kolonin lab",
+        "UTHealth Houston",
+        "monomethyl auristatin E",
+        "MMAE",
+        "imaging probe",
+        "extracellular matrix"
+      ],
+      "readTime": "11 min read",
+      "excerpt": "The Kolonin lab at UTHealth Houston identified BLMP6, a peptide that targets fibulin-4 on invasive breast cancers and delivers MMAE chemotherapy with preclinical efficacy.",
+      "metaDescription": "BLMP6, a fibulin-4-binding peptide from UTHealth's Kolonin lab, images and treats metastatic triple-negative breast cancer in preclinical models. Published April 2026.",
+      "keywords": "BLMP6 peptide, fibulin-4 cancer target, metastatic breast cancer peptide therapy, Kolonin lab UTHealth, peptide-drug conjugate breast cancer, monomethyl auristatin E peptide, triple-negative breast cancer 2026, in vivo phage display cancer peptide, Daquinag Kolonin 2026, fibulin-4 imaging probe"
+    },
+    {
       "slug": "orforglipron-central-amygdala-dopamine-reward-circuit",
       "title": "Orforglipron Reaches the Central Amygdala: How Oral GLP-1s Turn Down the Dopamine Reward Circuit",
       "subtitle": "A University of Virginia team using humanized GLP-1 receptor mice mapped the specific brain circuit through which oral small-molecule weight-loss drugs suppress eating for pleasure. The mechanism may also explain reports of reduced alcohol use, blunted cravings, and flattened affect among GLP-1 patients.",
