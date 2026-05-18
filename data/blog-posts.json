@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "slug": "peptideins-nature-microproteins-dark-proteome-transcode-may-2026",
+      "title": "Peptideins: Nature's New Category of Human Molecule Adds 1,785 Entries to the Proteome",
+      "subtitle": "The TransCODE consortium formally names thousands of dark-proteome translation products 'peptideins' and adds them to GENCODE, UniProt, and PeptideAtlas. Deutsch, Kok, Mudge et al., Nature, May 6, 2026. Implications for cancer immunotherapy, rare disease, and peptide drug discovery.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "image": "/static/images/blog-peptideins-nature-microproteins-dark-proteome-transcode.png",
+      "category": "Peptide Research",
+      "tags": [
+        "peptideins",
+        "microproteins",
+        "dark proteome",
+        "TransCODE consortium",
+        "ncORF",
+        "Nature",
+        "GENCODE",
+        "UniProt",
+        "PeptideAtlas",
+        "cancer immunotherapy",
+        "HLA immunopeptidome",
+        "Princess Maxima Center",
+        "EMBL-EBI",
+        "Ribo-seq"
+      ],
+      "readTime": "13 min read",
+      "excerpt": "Nature, May 6: the TransCODE consortium formally names 1,785 microproteins 'peptideins' and adds them to GENCODE, UniProt, and PeptideAtlas as a new annotation class.",
+      "metaDescription": "Nature May 2026: TransCODE consortium identifies 1,785 microproteins, coins term 'peptidein,' adds them to GENCODE, UniProt, PeptideAtlas. Cancer + rare disease implications.",
+      "keywords": "peptideins, peptidein definition, microproteins, dark proteome, ncORF, non-canonical open reading frame, TransCODE consortium, Nature peptidein paper, Deutsch Kok Mudge, GENCODE, UniProt, PeptideAtlas, cancer immunotherapy peptide antigens, pediatric cancer microprotein"
+    },
+    {
       "slug": "blmp6-peptide-fibulin-4-metastatic-breast-cancer-uthealth",
       "title": "BLMP6: UTHealth's Fibulin-4-Targeting Peptide for Metastatic Breast Cancer",
       "subtitle": "A short synthetic peptide identified by in vivo phage display binds an extracellular matrix protein upregulated around invasive tumors. As an imaging probe it lights up metastases in mice; as a drug conjugate it suppresses them. Kolonin lab, Molecular Therapy Oncology, April 2026.",

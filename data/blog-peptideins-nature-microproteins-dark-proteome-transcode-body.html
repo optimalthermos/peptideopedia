@@ -1,0 +1,138 @@
+<section id="lede">
+  <h2>What Was Published</h2>
+  <p>An international consortium has formally introduced a new category of human molecule. It is called a peptidein. It is not a protein. It is not noise. It is something the cell really makes, from a stretch of DNA that biology textbooks have been calling non-coding for decades, and it is now going into the major reference databases as its own annotation class. The paper appeared in <em>Nature</em> on May 6, 2026. The title is "Expanding the human proteome with microproteins and peptideins." First authors are Eric W. Deutsch of the Institute for Systems Biology and Leron W. Kok of the Princess Máxima Center for Pediatric Oncology in Utrecht. Senior author is Jonathan M. Mudge of the European Molecular Biology Laboratory's European Bioinformatics Institute (EMBL-EBI). The paper is open access and carries the DOI <a href="https://doi.org/10.1038/s41586-026-10459-x" rel="noopener">10.1038/s41586-026-10459-x</a>.</p>
+  <p>The TransCODE Consortium analyzed 7,264 non-canonical open reading frames &mdash; short stretches of DNA that look like they could code for tiny proteins but had been left out of the official human proteome &mdash; against 3.5 billion mass spectrometry spectra from 295 datasets and roughly 240 million HLA immunopeptidome spectra. Around a quarter of those reading frames, 1,785 of them, produced detectable protein-like molecules. Most do not have known functions. Some are essential for cell survival. A handful look like real protein-coding genes the field has been missing. The rest are now formally classified as peptideins and added to <a href="https://www.gencodegenes.org/" rel="noopener">GENCODE</a>, <a href="https://www.uniprot.org/" rel="noopener">UniProt</a>, and <a href="https://peptideatlas.org/" rel="noopener">PeptideAtlas</a>.</p>
+  <p>This is the first time the human proteome has gotten a new annotation category in over a decade.</p>
+</section>
+
+<section id="quick-takeaways">
+  <h2>Key Facts</h2>
+  <ul>
+    <li><strong>Paper:</strong> Deutsch EW, Kok LW, Mudge JM, et al. "Expanding the human proteome with microproteins and peptideins." <em>Nature</em>, May 6, 2026. DOI <a href="https://doi.org/10.1038/s41586-026-10459-x" rel="noopener">10.1038/s41586-026-10459-x</a>.</li>
+    <li><strong>Lead institutions:</strong> Princess Máxima Center for Pediatric Oncology (Utrecht), University of Michigan Medical School, EMBL European Bioinformatics Institute, Institute for Systems Biology, with the Max Delbrück Center and a broader TransCODE network.</li>
+    <li><strong>What a peptidein is:</strong> a molecule encoded by a non-canonical open reading frame (ncORF), detected as a real translation product in cells, but with insufficient evidence to be called a conventional protein. The cell makes it. We do not yet know what most do.</li>
+    <li><strong>The numbers:</strong> 7,264 candidate ncORFs queried. 1,785 yielded detectable HLA-presented peptides (~24.6%). 15 cleared the highest evidence bar for protein-coding gene status, including a uORF in GMCL1 newly promoted to gene.</li>
+    <li><strong>Databases receiving the new annotation:</strong> GENCODE, UniProt, PeptideAtlas, with open-source data release to accelerate downstream research.</li>
+    <li><strong>Disease relevance:</strong> Several peptideins are pan-essential in CRISPR fitness screens across multiple cancer cell lines. Some are presented on tumor HLA-I molecules, making them candidate immunotherapy targets. Childhood cancers and other disease links are flagged in the paper.</li>
+    <li><strong>Notable example:</strong> A peptidein encoded by <em>OLMALINC</em>, designated c10riboseqorf92, is essential in at least 60% of cell models tested and disrupts mitotic and DNA-damage pathways when knocked out.</li>
+    <li><strong>What it isn't:</strong> a drug, a therapy, a diagnostic test, or anything a patient can act on today. It is a new layer of the human proteome map.</li>
+  </ul>
+</section>
+
+<section id="why-matters">
+  <h2>Why This Paper Matters</h2>
+  <p>For three decades, the working assumption in human genetics has been that the protein-coding genome contains roughly 20,000 genes. That number sits in textbooks. It frames how every disease-association study, every drug-target screen, and every clinical sequencing pipeline interprets what it sees. The number is reassuring because it is finite. The protein parts list, once you finish naming all 20,000, is done.</p>
+  <p>The TransCODE paper says the parts list is not done. There is another layer underneath, made of much shorter molecules, encoded from regions of DNA that previous protein-coding gene catalogues either skipped or actively excluded. Most of the new molecules are 25 to 100 amino acids long. They are too small to be picked up by classical proteomics workflows tuned for the average human protein, which runs around 400 amino acids. They are too variable across species to register on the conservation-based filters that genome browsers use to flag candidate genes. They have been hiding in plain sight.</p>
+  <p>The clinical stakes are real. Some pediatric cancer cells appear to display peptideins on their HLA-I surface molecules in patterns that look attractive for T-cell engineering and personalized cancer vaccines. Some inherited diseases that have resisted molecular explanation may turn out to involve peptidein loss-of-function variants that no sequencing panel currently calls. And drug discovery, which has been chasing the same 20,000 protein targets for decades, just acquired a candidate target list with several thousand new entries.</p>
+</section>
+
+<section id="dark-proteome">
+  <h2>The Dark Proteome, Briefly</h2>
+  <p>The phrase "dark proteome" has been around since the early 2010s. It originally referred to portions of known proteins whose three-dimensional structure could not be predicted from sequence. Over time the term broadened. By the mid-2020s it had come to mean any protein-like molecule the field could detect in cells but had not formally annotated.</p>
+  <p>Two technologies changed what could be seen. Ribosome profiling, or Ribo-seq, captures which mRNAs the ribosome is physically translating at any given moment. Started in 2009, refined steadily since, Ribo-seq turned up thousands of short open reading frames the ribosome was actively reading even though no one had annotated them as genes. Mass spectrometry-based immunopeptidomics &mdash; mapping the short peptide fragments that HLA molecules display on the cell surface &mdash; did something parallel. It found that tumor cells, especially, were presenting peptides whose sequences mapped back to those same unannotated reading frames.</p>
+  <p>So the question stopped being "do non-canonical open reading frames produce anything?" and became "what counts as evidence that they produce something real, and what do we call the products when they don't quite clear the bar of a conventional protein?"</p>
+</section>
+
+<section id="evidence">
+  <h2>How the Evidence Was Built</h2>
+  <p>The TransCODE team did not relax the rules. They tightened them. The Human Proteome Project's standard for calling something a protein requires at least two distinct uniquely mapping peptides of 9 or more amino acids, spanning at least 18 amino acids of the open reading frame, at a protein-level false discovery rate of 0.1%. For molecules under 25 amino acids &mdash; which is 28% of the candidates here &mdash; that bar is essentially unreachable by ordinary tryptic digestion.</p>
+  <p>Two parallel pipelines were built. On the bulk proteomics side, the team processed 3.5 billion mass spectrometry spectra from 295 published datasets through a unified MSFragger and Trans-Proteomic Pipeline workflow, reached a peptide-level FDR of about 0.0009, and hand-audited every match to the strict criteria. Of 484 peptides mapping to 183 candidate ncORFs after the initial pass, only 30 of 42 multi-peptide candidates and 36 of 141 single-peptide candidates survived manual inspection.</p>
+  <p>On the immunopeptidome side, roughly 240 million spectra were analyzed in no-enzyme mode, with FDR controlled by a target-decoy entrapment strategy that scrambled real protein sequences to measure how often the pipeline invented plausible but wrong matches. Here the signal was much richer: 3,116 ncORF-derived peptides from 1,785 distinct reading frames, with binding profiles to HLA-I alleles statistically indistinguishable from canonical proteins.</p>
+  <p>The team then added a layer most groups have not built: an evolutionary measure called ORBL, which scores whether the architecture of an open reading frame &mdash; start codon, stop codon, reading frame integrity &mdash; is conserved across species even when the amino acid sequence is drifting. Roughly 30% of the queried ncORFs scored in a range that, under the null hypothesis, only 10% should have reached. Evolution, the data say, is paying attention to these reading frames even when classical conservation metrics see noise.</p>
+</section>
+
+<section id="naming">
+  <h2>Naming Is the Point</h2>
+  <p>Most of the public commentary around this paper has fixated on the new word. That is fair. The word is doing real work. A peptidein, the paper defines, is a translated product detected in cells with sufficient evidence to know that the cell really makes it &mdash; but without enough functional or evolutionary signal to promote it to the status of a protein-coding gene. The category is deliberately reserved. It is a place to park uncertainty without forcing a premature choice between "real gene" and "translational noise."</p>
+  <p>"It's made of amino acids, but we don't know what it does in terms of function," <a href="https://www.embl.org/news/science-technology/scientists-uncover-thousands-of-new-proteins-in-dark-proteome/" rel="noopener">Mudge told EMBL</a>. "We don't necessarily know that it does anything at this point. But we know it exists." The point of the new term, he and his co-authors argued in <em>Nature</em>, is not to add a buzzword. It is to give annotators, immunologists, and drug discovery teams a defined entity to reference. Without a name, the molecules stay scattered across supplementary tables in dozens of disconnected papers. With one, they get a coordinated entry in GENCODE, a stable accession in UniProt, a record in PeptideAtlas, and a position in the curatorial workflows that decide what every downstream pipeline considers part of the human proteome.</p>
+  <p>The Discovery Institute's commentary on the paper put it in plainer terms. These molecules have been "short, lonely bachelors in rented formal wear, leaning on the wall, nervously checking their watches at the annotation dance." The new name brings them onto the floor.</p>
+</section>
+
+<section id="cancer">
+  <h2>The Cancer Connection</h2>
+  <p>The single most consequential finding for clinical translation is on the immunopeptidome side. Tumor cells present a mix of self-peptides on their HLA-I molecules, and the field's hunt for tumor-specific antigens has so far been dominated by mutated protein fragments &mdash; the famous "neoantigens" that personalized cancer vaccines try to teach the immune system to recognize. The TransCODE data suggest that peptideins may be a complementary source of tumor antigens that has been almost completely ignored.</p>
+  <p>Of the 7,264 candidate reading frames, 1,785 generated detectable HLA-I-presented peptides &mdash; about 24.6%. The bulk of those peptides bind their HLA-I alleles as well as canonical protein-derived peptides do, by NetMHCpan prediction. Critically, peptidein-derived HLA-I peptides showed a different positional signal than canonical ones: they were enriched roughly 20-fold at the C-terminus, compared with about 7-fold for canonical proteins. Short polypeptides require fewer proteasomal cuts to generate a binding fragment. That has implications for which peptideins make good vaccine candidates and how to predict them.</p>
+  <p>The pediatric oncology angle is not incidental. The Princess Máxima Center, where Kok's lab is based, treats every child with cancer in the Netherlands. Childhood cancers tend to have fewer somatic mutations than adult cancers, which means fewer classical neoantigens, which means weaker substrates for personalized vaccines. A peptidein-based antigen layer that is differentially presented in pediatric tumors could change what a useful vaccine looks like for those patients. The paper does not make that claim. The community is already drawing the line.</p>
+</section>
+
+<section id="essentiality">
+  <h2>Which Peptideins Look Functional</h2>
+  <p>The team ran loss-of-function CRISPR-Cas9 screens against more than 2,000 ncORFs in eight cell lines, then meta-analyzed 25 additional CRISPR datasets including tiling mutagenesis to identify which reading frames are pan-essential &mdash; meaning their disruption reduces cell fitness in at least 60% of the models tested. The shortlist contains 51 such reading frames. Six of them combine pan-essentiality with HLA-presented peptides and high evolutionary constraint.</p>
+  <p>The example the paper spends the most attention on is c10riboseqorf92, encoded in the lncRNA <em>OLMALINC</em>. Bulk transcriptomics and multiplexed single-cell RNA-seq across 12 cell lines showed that knocking out this reading frame consistently disrupts mitotic progression and the DNA damage response. The team confirmed the effect comes from the peptidein itself rather than the underlying RNA. Even with that level of orthogonal evidence, the authors stopped short of calling c10riboseqorf92 a protein-coding gene. They classified it as a peptidein. The argument: all the existing essentiality data come from transformed cancer cell lines. What c10riboseqorf92 does in normal physiology is unknown.</p>
+  <p>The discipline of that decision is the part the field is most likely to absorb slowly. Existence proof is now cheap. The harder question is which of the 1,785 peptideins justify the years of follow-on biology required to promote them, and which should remain in the holding category until more evidence arrives.</p>
+</section>
+
+<section id="bigger-picture">
+  <h2>What Changes for Peptide Therapeutics</h2>
+  <p>The therapeutic peptide field has historically worked with a known set of endogenous signaling molecules &mdash; insulin, GLP-1, somatostatin, oxytocin, the parathyroid hormone family &mdash; and with synthetic analogues of them. Discovery of new endogenous peptides has been incremental. Most "novel" peptide drugs are engineered variants of known scaffolds.</p>
+  <p>Peptideins potentially expand that landscape in two directions. First, several are essential for cancer cell survival, which makes them targets, not drugs &mdash; the work of disrupting them would fall to small molecules, antibodies, or peptide antagonists rather than peptide agonists. Second, some are HLA-presented on tumor cells, which makes them antigens for immunotherapy &mdash; cancer vaccines, T-cell receptor therapies, or bispecific antibodies that bridge T cells to tumor cells. Neither of these is the same business as making the next GLP-1 analogue. Both are real businesses, with active companies and growing investor attention.</p>
+  <p>There is also a subtler implication for the broader peptide field. <a href="https://www.peptideknow.com/peptides/brp-brain-peptide-stanford" rel="noopener">BRP</a>, the Stanford-discovered brain peptide proposed as a non-GLP-1 weight-loss molecule, was itself identified through a bioinformatic search for short translation products &mdash; in spirit, an ncORF hunt. <a href="https://www.peptideknow.com/peptides/blmp6-peptide-fibulin-4-metastatic-breast-cancer" rel="noopener">BLMP6</a>, the UTHealth peptide targeting fibulin-4-marked metastatic breast cancer, was found by in vivo phage display rather than from the human genome. Both are reminders that the peptide universe is larger than the textbook list of hormones, and that systematic surveys keep returning peptides as the most interesting molecules in the room.</p>
+</section>
+
+<section id="limits">
+  <h2>What the Paper Doesn't Settle</h2>
+  <p>The TransCODE work is explicit about its limits. The HUPO two-peptide standard was designed for full-length proteins. It systematically under-detects reading frames shorter than 18 amino acids, which excludes a substantial fraction of the candidate set from any chance of formal protein status under the current rules. The authors call for new annotation standards that handle short ORFs specifically, but they do not propose what those should be.</p>
+  <p>The non-HLA mass spectrometry data come from a corpus heavily biased toward cancer samples. That means tumor-specificity claims for peptideins detected in those datasets need to be interpreted carefully. A peptidein flagged as "tumor-enriched" in this work may simply be tissue-enriched in a tissue that happens to be overrepresented in tumor proteomics archives.</p>
+  <p>The evolutionary signal measured by ORBL is real but interpretively narrow. Short ORFs can be spuriously conserved by chance more often than long ORFs, and ORF-level constraint says nothing about what the peptide product is doing. Constraint without function is suggestive. It is not proof.</p>
+  <p>And the manual curation that anchored the protein-grade claims does not scale. The team hand-inspected thousands of spectra and Ribo-seq tracks. They acknowledge that future work at this scale will require deep-learning surrogates trained on the curated examples. None of that exists yet.</p>
+</section>
+
+<section id="audience">
+  <h2>What This Means for Different Audiences</h2>
+  <p>For molecular biologists: a new category of annotated entity has entered the standard reference databases. Variant interpretation pipelines that consume GENCODE annotations will start surfacing peptidein-overlapping variants. Whether to treat those as candidate functional variants is a question every diagnostic lab will eventually have to answer.</p>
+  <p>For cancer immunologists: the tumor antigen repertoire is bigger than the mutated-protein-fragment view of it. Peptidein-derived HLA-presented peptides are real and predictable. Vaccine and TCR programs targeting this layer are an obvious next step.</p>
+  <p>For peptide therapeutic developers: the discovery space just expanded. Endogenous human peptides relevant to physiology may exist among the 1,785 peptideins that no one has annotated yet. The development pipeline starts from a different beginning &mdash; not "synthesize an analogue of insulin" but "find the human molecule we did not know we had."</p>
+  <p>For consumers and patients: nothing changes immediately. There is no peptidein drug, no peptidein test, no peptidein protocol. The reorganization is upstream of the clinic by several years. The right frame is curiosity, not action.</p>
+  <p>For regulators and policy people: the human proteome reference is now a moving target with a formal mechanism for adding short translation products. Standards for which peptideins justify clinical attention are not yet written. They will be.</p>
+</section>
+
+<section id="related">
+  <h2>Related Coverage</h2>
+  <ul>
+    <li><a href="/peptides/brp-brain-peptide-stanford">BRP brain peptide</a> &mdash; Stanford's bioinformatically-discovered short peptide proposed as a non-GLP-1 weight-loss target. Identified by a search workflow conceptually adjacent to ncORF hunts.</li>
+    <li><a href="/peptides/blmp6-peptide-fibulin-4-metastatic-breast-cancer">BLMP6 peptide</a> &mdash; UTHealth's fibulin-4-targeting peptide-drug conjugate against metastatic triple-negative breast cancer.</li>
+    <li><a href="/categories/immune-support">Immune-support peptides</a> &mdash; category context for the tumor antigen and HLA presentation discussion.</li>
+    <li><a href="/categories/related-compounds">Related compounds</a> &mdash; category for emerging research-stage molecules that do not yet have a defined therapeutic class.</li>
+  </ul>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <h3>What is a peptidein?</h3>
+  <p>A peptidein is a short protein-like molecule made by a cell from a stretch of DNA that was not previously annotated as a protein-coding gene. The cell really makes the molecule &mdash; mass spectrometry has detected it &mdash; but there is not yet enough evidence to know what the molecule does or whether it has a role in normal biology. The term was coined by the TransCODE Consortium in a paper published in <em>Nature</em> on May 6, 2026, to give these molecules a defined place in protein reference databases.</p>
+
+  <h3>How is a peptidein different from a peptide?</h3>
+  <p>"Peptide" is a general chemistry term for any short chain of amino acids, typically 2 to 50 long. Peptidein is a specific biological category: a translation product of a non-canonical open reading frame in the human genome, detected experimentally, but with insufficient evidence to be classified as a full protein-coding gene. Every peptidein is a peptide. Not every peptide is a peptidein.</p>
+
+  <h3>Are peptideins drugs?</h3>
+  <p>No. None of the 1,785 peptideins identified in this paper are drugs. They are endogenous human molecules &mdash; things our bodies make. Whether any of them will become drug targets, drug candidates, or vaccine antigens in the future depends on follow-on functional biology that has not yet been done.</p>
+
+  <h3>What databases are peptideins being added to?</h3>
+  <p>GENCODE, UniProt, and PeptideAtlas &mdash; the three reference resources most genomics, proteomics, and clinical sequencing pipelines consult. GENCODE handles gene annotation; UniProt holds canonical protein records; PeptideAtlas catalogs experimentally observed peptide sequences. The TransCODE data have been released open-source to let other groups build on them.</p>
+
+  <h3>Could peptideins explain unsolved genetic diseases?</h3>
+  <p>Possibly. A significant fraction of rare-disease genetic variants currently go uninterpreted because they fall in regions that no protein-coding gene was annotated in. If a variant disrupts a peptidein that none of the existing diagnostic panels know about, the disease association can be missed. As peptidein annotations enter standard genome browsers, that gap should narrow. The paper's authors flag this as one of the most clinically meaningful downstream applications.</p>
+
+  <h3>What is the dark proteome?</h3>
+  <p>The dark proteome is the catch-all term for translation products of the human genome that conventional protein databases have not catalogued. It includes microproteins, peptideins, and lower-confidence translation products that may or may not turn out to be real. The TransCODE paper formalizes which subset of the dark proteome has enough experimental support to enter the reference annotation, and which subset should remain provisional.</p>
+
+  <h3>What is the difference between a microprotein and a peptidein?</h3>
+  <p>The TransCODE paper treats microprotein as the broader descriptor &mdash; any small protein-like molecule, generally under 100 amino acids, encoded by an ncORF or a small ORF in a previously unannotated region. Peptidein is a curatorial subcategory: a microprotein with experimentally confirmed translation but ambiguous function, formally annotated in reference databases. A microprotein that meets the full HUPO protein-evidence bar and shows clear functional evidence gets promoted out of peptidein status to protein-coding gene.</p>
+</section>
+
+<section id="sources">
+  <h2>Sources</h2>
+  <ul>
+    <li>Deutsch EW, Kok LW, Mudge JM, et al. "Expanding the human proteome with microproteins and peptideins." <em>Nature</em>, May 6, 2026. <a href="https://doi.org/10.1038/s41586-026-10459-x" rel="noopener">doi.org/10.1038/s41586-026-10459-x</a>.</li>
+    <li>Callaway E. "Revealed: the mysterious 'dark' proteins that might play a big role in biology." <em>Nature</em> News, May 6, 2026. <a href="https://www.nature.com/articles/d41586-026-01492-x" rel="noopener">nature.com/articles/d41586-026-01492-x</a>.</li>
+    <li>EMBL-EBI press release. "Scientists uncover thousands of new proteins in 'dark proteome'." May 6, 2026. <a href="https://www.embl.org/news/science-technology/scientists-uncover-thousands-of-new-proteins-in-dark-proteome/" rel="noopener">embl.org</a>.</li>
+    <li>Max Delbrück Center press release. "Thousands of new proteins found in dark proteome." May 7, 2026. <a href="https://www.mdc-berlin.de/news/news/thousands-new-proteins-found-dark-proteome" rel="noopener">mdc-berlin.de</a>.</li>
+    <li>EurekAlert! "Thousands of new proteins revealed in dark proteome." May 6, 2026. <a href="https://www.eurekalert.org/news-releases/1126540" rel="noopener">eurekalert.org/news-releases/1126540</a>.</li>
+    <li>Phys.org. "Dark proteome yields 1,785 new microproteins that could reshape disease research." May 6, 2026. <a href="https://phys.org/news/2026-05-dark-proteome-yields-microproteins-reshape.html" rel="noopener">phys.org</a>.</li>
+    <li>GENCODE database (reference annotation). <a href="https://www.gencodegenes.org/" rel="noopener">gencodegenes.org</a>.</li>
+    <li>UniProt knowledgebase. <a href="https://www.uniprot.org/" rel="noopener">uniprot.org</a>.</li>
+    <li>PeptideAtlas. <a href="https://peptideatlas.org/" rel="noopener">peptideatlas.org</a>.</li>
+  </ul>
+  <p><em>This is a news summary of preclinical and basic-science research. Peptideins are endogenous molecules under active scientific investigation. None of the entities described in this article are drugs, dietary supplements, diagnostic tests, or treatments. Nothing here is medical advice.</em></p>
+</section>
