@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "fda-warning-letter-gram-peptides-retatrutide-tirzepatide",
+      "title": "FDA warning letter targets retatrutide and tirzepatide \u2018research peptides\u2019: what it means for buyers and clinics",
+      "subtitle": "A March 31 FDA letter to Gram Peptides shows how quickly \u2018RUO\u2019 claims collapse when marketing reads like a drug label.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-19",
+      "dateModified": "2026-05-19",
+      "image": "/static/images/blog-fda-warning-letter-gram-peptides-retatrutide.png",
+      "category": "Regulation",
+      "tags": [
+        "FDA",
+        "warning letters",
+        "retatrutide",
+        "tirzepatide",
+        "compounding",
+        "research use only"
+      ],
+      "readTime": "9 min read",
+      "excerpt": "The FDA\u2019s March 31, 2026 warning letter to Gram Peptides spotlights how \u2018research use only\u2019 peptide sellers can trigger enforcement when claims imply human use.",
+      "metaDescription": "FDA\u2019s March 31, 2026 warning letter to Gram Peptides flags retatrutide and tirzepatide \u2018research peptides\u2019 marketed like drugs. What it means now.",
+      "keywords": "FDA warning letter, Gram Peptides, retatrutide, tirzepatide, research peptides, RUO labeling, unapproved new drugs, peptide compounding, GLP-1, GLP-1R, GLP-1 agonist, GLP-2 peptide"
+    },
+    {
       "slug": "peptideins-nature-microproteins-dark-proteome-transcode-may-2026",
       "title": "Peptideins: Nature's New Category of Human Molecule Adds 1,785 Entries to the Proteome",
       "subtitle": "The TransCODE consortium formally names thousands of dark-proteome translation products 'peptideins' and adds them to GENCODE, UniProt, and PeptideAtlas. Deutsch, Kok, Mudge et al., Nature, May 6, 2026. Implications for cancer immunotherapy, rare disease, and peptide drug discovery.",
