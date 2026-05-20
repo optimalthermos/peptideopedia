@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "parabilis-regeneron-antibody-helicon-conjugates-may-2026",
+      "title": "Regeneron bets $125M upfront on Parabilis Helicons: antibody-peptide conjugates step out of the shadows",
+      "subtitle": "A May 18, 2026 deal pairs Regeneron's antibody library with Parabilis's stabilized alpha-helical peptides to build a new class of conjugate drugs across five targets.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-20",
+      "dateModified": "2026-05-20",
+      "image": "/static/images/blog-parabilis-regeneron-antibody-helicon-conjugates-may-2026.png",
+      "category": "Industry",
+      "tags": [
+        "Parabilis Medicines",
+        "Regeneron",
+        "Helicon peptides",
+        "antibody-peptide conjugates",
+        "stapled peptides",
+        "zolucatetide",
+        "beta-catenin",
+        "drug discovery"
+      ],
+      "readTime": "14 min read",
+      "excerpt": "Regeneron's $125M upfront plus $2.2B milestone deal with Parabilis bets antibody-Helicon conjugates can drug protein-protein interactions ADCs can't reach.",
+      "metaDescription": "Regeneron pays Parabilis $125M upfront, $2.2B in milestones for antibody-Helicon conjugates across 5 targets. What AHCs are, and why this deal matters.",
+      "keywords": "Parabilis Medicines, Regeneron, antibody-Helicon conjugate, AHC, Helicon peptide, stapled peptide, alpha-helical peptide, zolucatetide, FOG-001, beta-catenin inhibitor, antibody-drug conjugate, peptide-drug conjugate, intracellular protein-protein interaction, Mathai Mammen"
+    },
+    {
       "slug": "fda-warning-letter-gram-peptides-retatrutide-tirzepatide",
       "title": "FDA warning letter targets retatrutide and tirzepatide \u2018research peptides\u2019: what it means for buyers and clinics",
       "subtitle": "A March 31 FDA letter to Gram Peptides shows how quickly \u2018RUO\u2019 claims collapse when marketing reads like a drug label.",
