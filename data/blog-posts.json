@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "ghk-cu-503a-category-1-non-injectable-fda-may-2026",
+      "title": "FDA restores non-injectable GHK-Cu to 503A Category 1 \u2014 what it means for peptide compounding",
+      "subtitle": "A May 14, 2026 FDA reference-document update reverses an April removal of GHK-Cu from the compounding bulks list, with non-injectable use back under evaluation and a PCAC review on the calendar before end of February 2027.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-05-23",
+      "dateModified": "2026-05-23",
+      "image": "/static/images/blog-ghk-cu-503a-category-1-non-injectable-fda-may-2026.png",
+      "category": "Regulation",
+      "tags": [
+        "GHK-Cu",
+        "FDA",
+        "503A",
+        "compounding",
+        "PCAC",
+        "regulation",
+        "topical peptides",
+        "copper peptide"
+      ],
+      "readTime": "10 min read",
+      "excerpt": "FDA restored non-injectable GHK-Cu to Category 1 of its 503A bulks list on May 14, reversing an April removal \u2014 and set a PCAC review before end of February 2027.",
+      "metaDescription": "Non-injectable GHK-Cu is back in 503A Category 1 per FDA's May 14 update. Injectable stays excluded. PCAC review before end of February 2027.",
+      "keywords": "GHK-Cu compounding, GHK-Cu 503A, FDA 503A bulks list, copper peptide compounding, PCAC GHK-Cu, GHK-Cu Category 1, GHK-Cu non-injectable, GHK-Cu injectable, peptide compounding pharmacy, 503A peptide regulation, Pharmacy Compounding Advisory Committee, copper tripeptide regulation"
+    },
+    {
       "slug": "semaglutide-camp-area-postrema-pde4-roflumilast-nih-may-2026",
       "title": "NIH locates semaglutide's brain handle: cAMP in area postrema neurons, and a PDE4 inhibitor that sustains it",
       "subtitle": "A new Nature Metabolism paper from NIDDK shows semaglutide's CNS effect runs through cyclic AMP in hindbrain GLP-1R neurons \u2014 and that roflumilast can keep that signal on longer.",
