@@ -16333,6 +16333,133 @@
       "storage": "Standard short-peptide storage practices apply for research use.",
       "clinicalTrialStatus": "No clinical trials. No active IND filing.",
       "pharmacokinetics": "Limited published PK. Mouse biodistribution studies confirmed accumulation at metastatic lesions; serum half-life and detailed PK have not been reported in the public literature."
+    },
+    {
+      "name": "DA-1726",
+      "slug": "da-1726-oxyntomodulin-glp1-glucagon-dual-agonist",
+      "alternativeNames": [
+        "DA-1726",
+        "DA1726",
+        "MetaVia oxyntomodulin analogue",
+        "MTVA oxyntomodulin co-agonist"
+      ],
+      "categories": [
+        "weight-loss-metabolic",
+        "related-compounds"
+      ],
+      "description": "DA-1726 is an investigational oxyntomodulin-analogue peptide developed by MetaVia Inc. (Nasdaq: MTVA) as a once-weekly subcutaneous dual agonist at the glucagon-like peptide-1 receptor (GLP-1R) and the glucagon receptor (GCGR). It is engineered to combine the appetite-suppressing and glycemic effects of GLP-1 receptor activation with the energy-expenditure and hepatic lipid-mobilization effects of glucagon receptor activation. The compound is being developed for obesity and for metabolic dysfunction-associated steatohepatitis (MASH). DA-1726 reported higher-dose Phase 1 results at the EASL Congress 2026 on May 27, 2026, showing a mean 9.1% body weight reduction at Day 54 in the 48 mg cohort with directional improvements in FibroScan liver-fat and stiffness measures versus placebo. Phase 1 Part 3 titration studies are ongoing.",
+      "mechanismOfAction": "DA-1726 is an oxyntomodulin-analogue dual agonist. Endogenous oxyntomodulin is a 37-amino-acid post-translational product of preproglucagon released from intestinal L-cells; it binds both GLP-1R (driving insulin secretion, slowed gastric emptying, and central appetite suppression) and GCGR (driving hepatic glucose output and, more relevantly here, increased basal energy expenditure and hepatic lipid utilization). DA-1726 retains balanced agonism at both receptors. The GLP-1R component delivers the appetite-suppression mechanism familiar from semaglutide and tirzepatide; the GCGR component is intended to add a second weight-loss lever via thermogenesis and to mobilize hepatic triglyceride, which is the proposed mechanism for the observed reductions in FibroScan controlled attenuation parameter (CAP, a liver-fat surrogate) and vibration-controlled transient elastography (VCTE, a liver-stiffness surrogate).",
+      "benefits": [
+        "Mean -6.1% body weight at Day 26 and -9.1% at Day 54 in the 48 mg Phase 1 cohort (no plateau through Week 8)",
+        "Mean -5.8 cm waist circumference at Day 26 and -9.8 cm at Day 54",
+        "FibroScan CAP -20.0 dB/m vs +24.0 dB/m placebo (directional liver-fat improvement)",
+        "FibroScan VCTE liver stiffness -10.3% vs +13.8% placebo (directional liver-stiffness improvement)",
+        "Directional improvement in FibroScan-AST (FAST) score, a composite MASH surrogate",
+        "Once-weekly subcutaneous dosing convenient relative to daily oral GLP-1s",
+        "No clinically meaningful changes in heart rate or QTcF despite glucagon receptor agonism"
+      ],
+      "researchStatus": "Phase 1 active. Phase 1 Part 3a/3b titration studies ongoing as of May 2026; longer-term data expected to inform Phase 2 design.",
+      "aminoAcidSequence": "Not publicly disclosed",
+      "molecularWeight": "Not publicly disclosed",
+      "synergisticCompounds": [],
+      "relatedPeptides": [
+        {
+          "name": "Retatrutide",
+          "slug": "retatrutide",
+          "relationship": "Triple GLP-1/GIP/glucagon receptor agonist from Eli Lilly; DA-1726 shares the GLP-1+glucagon agonism but lacks the GIP component"
+        },
+        {
+          "name": "Semaglutide",
+          "slug": "semaglutide",
+          "relationship": "Single GLP-1 receptor agonist; DA-1726 adds glucagon receptor agonism to the GLP-1 mechanism"
+        },
+        {
+          "name": "Tirzepatide",
+          "slug": "tirzepatide",
+          "relationship": "Dual GLP-1/GIP receptor agonist; DA-1726 substitutes the GIP component with glucagon receptor agonism"
+        },
+        {
+          "name": "EB618 (oral oxyntomodulin)",
+          "slug": "eb618-oral-oxyntomodulin-glp1-glucagon-tablet",
+          "relationship": "Oral oxyntomodulin-class GLP-1/glucagon dual agonist; same mechanistic class, different route of administration"
+        },
+        {
+          "name": "Orforglipron",
+          "slug": "orforglipron",
+          "relationship": "Oral non-peptide GLP-1 receptor agonist; competing oral approach to GLP-1-driven weight loss"
+        }
+      ],
+      "sideEffects": [
+        "Gastrointestinal (mild-to-moderate, transient) without dose titration",
+        "Watch: glucagon receptor activation can in principle raise heart rate and increase hepatic glucose output \u2014 Phase 1 saw no clinically meaningful HR or QTcF changes at 48 mg, but longer studies are needed",
+        "Standard incretin-class watch items: nausea, decreased appetite, fatigue"
+      ],
+      "dosageNotes": "Investigational only. Phase 1 used 48 mg once-weekly subcutaneous without titration over 4 weeks, with an optional 4-week extension at the same dose.",
+      "references": [
+        {
+          "title": "MetaVia Presents Higher-Dose Phase 1 Results for DA-1726 at EASL Congress 2026",
+          "url": "https://www.prnewswire.com/news-releases/metavia-presents-higher-dose-phase-1-results-for-da-1726-at-easl-congress-2026-supporting-potential-in-obesity-and-mash-302782740.html",
+          "year": 2026
+        },
+        {
+          "title": "MetaVia to Present DA-1726 Late-Breaking Poster at EASL Congress 2026",
+          "url": "https://www.prnewswire.com/news-releases/metavia-to-present-data-highlighting-da-1726-a-glp-1glucagon-dual-agonist-in-a-late-breaking-poster-presentation-at-the-easl-congress-2026-302767663.html",
+          "year": 2026
+        }
+      ],
+      "dosage": "Phase 1: 48 mg subcutaneous once weekly. Not approved for any indication.",
+      "reconstitution": "Not applicable (investigational, not commercially available)",
+      "popularity_score": 35,
+      "regulatoryStatus": {
+        "status": "clinical-trials",
+        "label": "Phase 1 \u2014 Ongoing Part 3 Titration Studies",
+        "details": "Phase 1 Part 3a/3b titration studies ongoing as of May 2026. Higher-dose Phase 1 data (48 mg cohort) presented at EASL Congress 2026 (May 27, 2026). Not FDA approved. No Phase 2 initiated as of late May 2026.",
+        "lastUpdated": "2026-05"
+      },
+      "contraindications": [
+        {
+          "condition": "Investigational status",
+          "severity": "absolute",
+          "details": "DA-1726 is an investigational compound not approved for any indication. It is contraindicated outside of an enrolled clinical trial."
+        },
+        {
+          "condition": "Personal or family history of medullary thyroid carcinoma / MEN 2",
+          "severity": "relative",
+          "details": "Standard incretin-class precaution. Long-term human data on thyroid C-cell tumor risk for DA-1726 are not available."
+        },
+        {
+          "condition": "Pregnancy / lactation",
+          "severity": "relative",
+          "details": "No human reproductive data. Avoid in pregnant or breastfeeding patients pending studies."
+        },
+        {
+          "condition": "Severe hepatic impairment / advanced cirrhosis",
+          "severity": "relative",
+          "details": "Glucagon receptor agonism affects hepatic glucose and lipid handling; safety in advanced liver disease is not established beyond the early FibroScan signals."
+        }
+      ],
+      "drugInteractions": [
+        {
+          "drug": "Oral medications (general)",
+          "severity": "moderate",
+          "details": "GLP-1 receptor agonists slow gastric emptying, which can delay and reduce absorption of orally administered drugs \u2014 particularly narrow-therapeutic-index agents such as warfarin, levothyroxine, and oral contraceptives. The glucagon component of DA-1726 is not expected to modify this effect substantially."
+        },
+        {
+          "drug": "Insulin and sulfonylureas",
+          "severity": "moderate",
+          "details": "Class-level risk of hypoglycemia when GLP-1 receptor agonists are added to insulin or insulin secretagogues. Dose-adjustment of background therapy is the standard approach in clinical trials."
+        }
+      ],
+      "fdaSafetyNotes": "DA-1726 is an investigational compound. Not approved by the FDA for any indication.",
+      "routesOfAdministration": [
+        "Subcutaneous injection (once weekly)"
+      ],
+      "halfLife": "Not publicly disclosed; consistent with once-weekly subcutaneous dosing.",
+      "storage": "Not applicable for general use (investigational only).",
+      "manufacturer": "MetaVia Inc. (Nasdaq: MTVA), Cambridge, Massachusetts",
+      "casNumber": "Not publicly disclosed",
+      "clinicalTrialStatus": "Phase 1 active (NCT identifier on MetaVia investor pages); Phase 1 Part 3 titration studies ongoing.",
+      "popularityScore": 35
     }
   ]
 }
