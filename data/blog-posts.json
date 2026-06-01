@@ -1,6 +1,31 @@
 {
   "posts": [
     {
+      "slug": "fda-glp1-compounding-enforcement-june-2026",
+      "title": "FDA signals enforcement against unapproved compounded GLP-1 drugs: what it means for peptide medicine",
+      "subtitle": "On June 1, 2026, the FDA said it will use seizures, injunctions, and advertising enforcement against mass-marketed compounded GLP-1 products. Here is what changes for clinicians, telehealth platforms, and patients.",
+      "author": "PeptideKnow Editorial",
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-06-01",
+      "image": "/static/images/blog-fda-glp1-compounding-enforcement.png",
+      "bodyFile": "blog-fda-glp1-compounding-enforcement-2026-body.html",
+      "category": "Regulation",
+      "tags": [
+        "FDA",
+        "GLP-1",
+        "compounding",
+        "semaglutide",
+        "tirzepatide",
+        "enforcement",
+        "telehealth",
+        "peptide policy"
+      ],
+      "readTime": "8 min read",
+      "excerpt": "The FDA says it will restrict GLP-1 APIs used in mass-marketed unapproved compounded drugs and crack down on advertising that calls them generic versions of branded drugs.",
+      "metaDescription": "FDA announces June 1, 2026 enforcement push against unapproved compounded GLP-1 drugs and misleading marketing. What clinics, telehealth, and patients should do now.",
+      "keywords": "FDA GLP-1 compounding, FDA enforcement 2026, compounded semaglutide, compounded tirzepatide, GLP-1 peptide regulation, telehealth GLP-1, FDA peptide compounding, 503A peptide list, GLP-1 advertising claims, FDA Wegovy generic"
+    },
+    {
       "slug": "sublingual-compounded-peptides-pcac-july-2026",
       "title": "Sublingual compounded peptides: Quicksome claims and what the FDA’s July 2026 PCAC review could change",
       "subtitle": "A needle-free delivery pitch lands as regulators prepare to re-evaluate BPC-157, KPV, TB-500, MOTS-c, Semax, Epitalon and more.",
